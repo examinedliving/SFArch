@@ -1,0 +1,77 @@
+/* iphone 5 */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+
+ #map-iscroll-base {
+    max-height:463px;
+}
+
+#blog-scroll-wrapper, #blog-scroll {
+    max-height:438px;
+}
+
+.page {
+	height:473px;
+}
+.subpage {
+	height:568px;
+}
+
+
+/* home page */
+#home-content .box.logo {
+	height:100%;
+}
+	#home-content .box.logo .cell {
+		height:inherit;
+			}
+
+			.sfarchology p:last-child {
+    padding-top: 10px;
+
+/* about page */
+
+	#about-content .section_p {
+		padding-top:25px;
+	}
+	#about-content .section_p p:last-child {
+		padding-top:5px;
+	}
+
+/* contact content */
+.row.label:last-child {
+	margin-top:20px;
+}
+
+
+	/* splash */
+	#global-loading {
+		height:568px;
+	}
+	#global-loading,#logo-wrapper,#global-loader {
+		width:320px;
+	}
+	#logo-wrapper,#global-loader {
+		height:284px;
+	}
+	#global-loader {
+		top:284px;
+	}
+	#logo-wrapper div {
+		height:284px;
+		left:60px;
+	}
+	#logo-wrapper img {
+		width:230px;
+		top:30px;
+		left:-9px;
+	}
+	#spinner {
+		left:130px;
+		top:10px;
+	}
+
+}
+
+
+}

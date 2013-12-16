@@ -1,0 +1,9 @@
+/* retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles */
+    .bar-title,#home-content .box.logo div:first-child {
+        background:url(../../images/assets/header_@2x.png);
+        background-color:#ffffff;
+        background-image:url(../../images/assets/header_@2x.png);
+    }
+}

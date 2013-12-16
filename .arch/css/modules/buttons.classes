@@ -1,0 +1,124 @@
+[{
+	"selector": ".bar-title > a:not([class*=\"button\"])",
+	"style": "display: block; width: 100%; height: 100%;"
+}, {
+	"selector": ".bar-title [class*=\"button\"]",
+	"style": "position: relative; z-index: 10; font-size: 12px; line-height: 23px; color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.298039) 0px -1px 0px; background-color: rgb(30, 176, 233); background-image: linear-gradient(rgb(30, 176, 233) 0px, rgb(9, 132, 198) 100%); border: 1px solid rgb(14, 88, 149); box-shadow: rgba(255, 255, 255, 0.247059) 0px 1px; -webkit-box-flex: 0;"
+}, {
+	"selector": ".bar-title .title + [class*=\"button\"]:last-child, .bar-title .button + [class*=\"button\"]:last-child, .bar-title [class*=\"button\"].pull-right",
+	"style": "position: absolute; top: 5px; right: 5px;"
+}, {
+	"selector": ".bar-title .button:active",
+	"style": "color: rgb(255, 255, 255); background-color: rgb(8, 118, 177);"
+}, {
+	"selector": ".bar-title .button-prev, .bar-title .button-next",
+	"style": "position: relative;"
+}, {
+	"selector": ".bar-title .button-prev",
+	"style": "margin-left: 7px; border-left-width: 0px; border-bottom-left-radius: 10px 15px; border-top-left-radius: 10px 15px;"
+}, {
+	"selector": ".bar-title .button-next",
+	"style": "margin-right: 7px; border-right-width: 0px; border-top-right-radius: 10px 15px; border-bottom-right-radius: 10px 15px;"
+}, {
+	"selector": ".bar-title .button-prev::before, .bar-title .button-next::before",
+	"style": "position: absolute; top: 2px; width: 27px; height: 27px; border-top-left-radius: 30px 2px; border-top-right-radius: 100px 40px; border-bottom-right-radius: 2px 30px; border-bottom-left-radius: 40px 100px; content: ''; box-shadow: rgb(14, 88, 149) 1px 0px inset, rgb(14, 88, 149) 0px 1px inset; -webkit-mask: -webkit-gradient(linear, 0% 0%, 100% 100%, from(rgb(0, 0, 0)), color-stop(0.33, rgb(0, 0, 0)), color-stop(0.5, transparent), to(transparent));"
+}, {
+	"selector": ".bar-title .button-prev::before",
+	"style": "left: -5px; background-image: -webkit-gradient(linear, 0% 100%, 100% 0%, from(rgb(9, 132, 198)), to(rgb(30, 176, 233))); border-left-width: 1.5px; border-left-style: solid; border-left-color: rgba(255, 255, 255, 0.247059); -webkit-transform: rotate(-45deg) skew(-10deg, -10deg);"
+}, {
+	"selector": ".bar-title .button-next::before",
+	"style": "right: -5px; background-image: -webkit-gradient(linear, 0% 100%, 100% 0%, from(rgb(30, 176, 233)), to(rgb(9, 132, 198))); border-top-width: 1.5px; border-top-style: solid; border-top-color: rgba(255, 255, 255, 0.247059); -webkit-transform: rotate(135deg) skew(-10deg, -10deg);"
+}, {
+	"selector": ".bar-title .button-prev:active, .bar-title .button-next:active, .bar-title .button-prev:active::before, .bar-title .button-next:active::before",
+	"style": "color: rgb(255, 255, 255); background-color: rgb(8, 118, 177); background-image: none;"
+}, {
+	"selector": ".bar-title .button-prev:active::before, .bar-title .button-next:active::before",
+	"style": "content: '';"
+}, {
+	"selector": ".bar-title .button-prev:active::before",
+	"style": "box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px inset;"
+}, {
+	"selector": ".bar-title .button-next:active::before",
+	"style": "box-shadow: rgba(0, 0, 0, 0.2) 0px -3px 3px inset;"
+}, {
+	"selector": "[class*=\"bar\"] .button-block",
+	"style": "padding: 7px 0px; margin-bottom: 0px; box-shadow: rgba(255, 255, 255, 0.4) 0px 1px 1px inset, rgba(255, 255, 255, 0.8) 0px 1px;"
+}, {
+	"selector": "[class*=\"bar\"] .button-block:active",
+	"style": "padding: 7px 0px;"
+}, {
+	"selector": "[class*=\"bar-\"] .segmented-controller + [class*=\"button\"], [class*=\"bar-\"] [class*=\"button\"] + .segmented-controller",
+	"style": "margin-left: 5px;"
+}, {
+	"selector": ".list li > a:not([class*=\"button\"])",
+	"style": "position: relative; display: block; padding: inherit; margin: -11px -60px -11px -10px; color: inherit;"
+}, {
+	"selector": ".list .chevron, .list [class*=\"button\"], .list [class*=\"count\"], .list .toggle",
+	"style": "position: absolute; top: 50%; right: 10px;"
+}, {
+	"selector": ".list [class*=\"button\"]",
+	"style": "left: auto; margin-top: -14px;"
+}, {
+	"selector": "input, textarea, button, select",
+	"style": "font-family: inherit; font-size: inherit;"
+}, {
+	"selector": "[class*=\"button\"]",
+	"style": "position: relative; display: inline-block; padding: 4px 12px; margin: 0px; font-weight: bold; line-height: 18px; color: rgb(51, 51, 51); text-align: center; text-shadow: rgba(255, 255, 255, 0.498039) 0px 1px 0px; vertical-align: top; cursor: pointer; background-color: rgb(248, 248, 248); background-image: linear-gradient(rgb(248, 248, 248) 0px, rgb(212, 212, 212) 100%); border: 1px solid rgba(0, 0, 0, 0.298039); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(255, 255, 255, 0.4) 0px 1px 1px inset, rgba(0, 0, 0, 0.0470588) 0px 1px 2px;"
+}, {
+	"selector": "[class*=\"button\"]:active",
+	"style": "padding-top: 5px; padding-bottom: 3px; color: rgb(51, 51, 51); background-color: rgb(204, 204, 204); background-image: none; box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px inset;"
+}, {
+	"selector": ".button-main, .button-positive, .button-negative",
+	"style": "color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.298039) 0px -1px 0px;"
+}, {
+	"selector": ".button-main",
+	"style": "background-color: rgb(30, 175, 231); background-image: linear-gradient(rgb(30, 175, 231) 0px, rgb(26, 151, 200) 100%); border: 1px solid rgb(17, 122, 170);"
+}, {
+	"selector": ".button-positive",
+	"style": "background-color: rgb(52, 186, 21); background-image: linear-gradient(rgb(52, 186, 21) 0px, rgb(45, 160, 18) 100%); border: 1px solid rgb(39, 143, 15);"
+}, {
+	"selector": ".button-negative",
+	"style": "background-color: rgb(231, 30, 30); background-image: linear-gradient(rgb(231, 30, 30) 0px, rgb(199, 26, 26) 100%); border: 1px solid rgb(181, 26, 26);"
+}, {
+	"selector": ".button-main:active, .button-positive:active, .button-negative:active",
+	"style": "color: rgb(255, 255, 255);"
+}, {
+	"selector": ".button-main:active",
+	"style": "background-color: rgb(8, 118, 177);"
+}, {
+	"selector": ".button-positive:active",
+	"style": "background-color: rgb(41, 143, 17);"
+}, {
+	"selector": ".button-negative:active",
+	"style": "background-color: rgb(178, 26, 26);"
+}, {
+	"selector": ".button-block",
+	"style": "display: block; padding: 11px 0px 13px; margin-bottom: 10px; font-size: 16px;"
+}, {
+	"selector": ".button-block:active",
+	"style": "padding: 12px 0px;"
+}, {
+	"selector": "button.button-block",
+	"style": "width: 100%;"
+}, {
+	"selector": "[class*=\"button\"] [class*=\"count\"]",
+	"style": "padding-top: 2px; padding-bottom: 2px; margin-right: -4px; margin-left: 4px; text-shadow: none; background-color: rgba(0, 0, 0, 0.2); box-shadow: rgb(0, 0, 0) 0px 1px 1px -1px inset, rgb(255, 255, 255) 0px 1px 1px -1px;"
+}, {
+	"selector": ".button-block [class*=\"count\"]",
+	"style": "position: absolute; right: 0px; padding-top: 4px; padding-bottom: 4px; margin-right: 10px;"
+}, {
+	"selector": ".popover-header [class*=\"button\"]",
+	"style": "z-index: 25; font-size: 12px; line-height: 22px; color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.298039) 0px -1px 0px; background-color: rgb(69, 69, 69); background-image: linear-gradient(rgb(69, 69, 69) 0px, rgb(53, 53, 53) 100%); border: 1px solid rgb(17, 17, 17); -webkit-box-flex: 0;"
+}, {
+	"selector": ".popover-header .title + [class*=\"button\"]:last-child, .popover-header .button + [class*=\"button\"]:last-child, .popover-header [class*=\"button\"].pull-right",
+	"style": "position: absolute; top: 5px; right: 5px;"
+}, {
+	"selector": ".popover-header .button:active",
+	"style": "color: rgb(255, 255, 255); background-color: rgb(8, 118, 177);"
+}, {
+	"selector": ".popover .button-block",
+	"style": "margin-bottom: 5px; border: 1px solid rgb(17, 17, 17);"
+}, {
+	"selector": ".popover .button-block:last-child",
+	"style": "margin-bottom: 0px;"
+}]

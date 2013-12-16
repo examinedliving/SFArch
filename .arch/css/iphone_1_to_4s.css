@@ -1,0 +1,78 @@
+/* iphone 1-4s css */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	/* bottom section of home page */
+	#home-content .box, #home-content .box .row{
+				width:320px;
+	}
+	#home-content .box.logo,#home-content .box.logo .row p {
+		height:178px;
+		margin:0;
+	}
+
+	#home-content .box.logo .row p {
+		line-height: 178px;
+	}
+
+	/* This is the image logo on the home page */
+	#logo {
+		height:175px;
+	}
+
+	/* image slider */
+	.device {
+		height:172px;
+	}
+
+	/* Fix to fill content section on about page */
+	#about-content .iscroll-container {
+		position:relative;
+		padding-top:2px;
+	}
+	/* anything with page class */
+	.page {
+		height:385px;
+		width:320px;
+	}
+
+
+	/* map page elements */
+
+
+	 #map-iscroll-base {
+    max-height:375px;
+	}
+
+	/* #blog page */
+	#blog-scroll-wrapper, #blog-scroll {
+    max-height:350px;
+	}
+
+	/* Splash */
+	#global-loading,#logo-wrapper,#global-loader {
+		width:320px;
+	}
+	#global-loading {
+		height:480px;
+	}
+	#logo-wrapper,#global-loader {
+		height:240px;
+	}
+	#global-loader {
+		top:240px;
+	}
+	#logo-wrapper div {
+		height:240px;
+		left:60px;
+	}
+	#logo-wrapper img {
+		width:230px;
+		top:15px;
+		left:-7px;
+	}
+	#spinner {
+		left:130px;
+		top:10px;
+	}
+
+}

@@ -1,0 +1,47 @@
+/* Styles for all iphones */
+
+@media only screen and (min-device-width : 320px) {
+
+	/* image sliders */
+	#home-content .device {
+		width:320px;
+	}
+	#about-content .device {
+		width:290px;
+	}
+
+	#about-content section {
+	  width:290px;
+	}
+	#about-content .section_p {
+		padding-top:3px;
+		padding-right:16px;
+		line-height:16px;
+	}
+	#about-content .section_p p:last-child {
+		padding-top:2px;
+	}
+	
+	/* Map page elements */
+	#mapContainer {
+		top:30px;
+	}
+	#mapInfo {
+		position:absolute;
+		left:0;
+		right:0;
+		height:68px;
+		bottom:25px;
+	}
+	#mapInfo p,#mapInfo ul {
+		height:68px;
+	}
+
+	/* Blog Elements */
+	.article-caption {
+		font-size:12px;
+	}
+
+
+
+}

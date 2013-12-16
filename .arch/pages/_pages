@@ -1,0 +1,657 @@
+<!-- @header -->
+
+<!-- /header -->
+<!-- @content -->
+<div data-role="content" data-iscroll>
+    <section>
+        <p class="architecture ui-orange large">Good Design For Good Clients</p>
+        <img src="imgs/blueprint_2_min.jpg" class="full-box-shadow" id="a-main-img" />
+    </section>
+    <section class="section_p">
+        <p>The firm was founded in 1958 as Sedgewick &amp; Associates, later Sedgewick, Sellers, &amp; Associates, Waterstreet Design, P.C., and finally changed to Sedgewick &amp; Ferweda Architects, without change in philosophy or integrity. The firm represents a tradition of over fifty years of providing quality Architectural services to our community and has been responsible for over one billion dollars (current value) of building construction in-place. The work has encompassed a variety of building and structure types, and represents a continuous record of accomplishments. This background is at the disposal of each of our clients. The updated firm will still provide quality Architectural services to our existing clients, without a change in philosophy or integrity.</p>
+        <p>Our aim, as originally directed by Tom Sedgewick Sr., and maintained by all of us here, is to be a professional group whose purpose is to translate their clients&#39; desires and wishes into reality. The reality of a humane, pleasing environment, sustainable, economical of construction, budgetable, while accomplishing the client’s intents and desires.</p>
+    </section>
+    <section>
+        <p>Visit Us On The Web At <a rel="external" href="http://www.sfarch.us">http://www.sfarch.us</a>
+        </p>
+    </section>
+</div>
+<!-- /content -->
+<!-- @footer -->
+
+<!-- /footer -->
+<!-- header -->
+<!-- header -->
+<!-- @content -->
+
+<div data-role="content" data-iscroll>
+    <div class="iscroll-padding">
+        <h3>These are some articles from our blog at <a data-ajax="false" data-prefetch="false" rel="external">blog.sfarch.us</a>
+        </h3>
+        <ul class="myUl myBlogUl raleway" data-role="none" id="blog-snippets-ul">
+            <li class="blog-snippet">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a blog-block-a">
+                        <span>Adhuc ordiamur ceterorum perfruique quaeritur quietem detractis quamvis puto, ei ornatum quaeritur.</span>
+                    </div>
+                    <div class="ui-block-b blog-block-b">
+                        <div class="ui-icon-arrow-right"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="blog-snippet">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a blog-block-a">
+                        <span>Quantaque quidque manu eventurum modis constituto probarent nemore tractatos. Magnopere recordamur conetur ingenii umbram contra</span>
+                    </div>
+                    <div class="ui-block-b blog-block-b">
+                        <div class="ui-icon-arrow-right"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="blog-snippet">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a blog-block-a">
+                        <span>Praeda, quippe conquisitis tua legant imperii cumanum ponit</span>
+                    </div>
+                    <div class="ui-block-b blog-block-b">
+                        <div class="ui-icon-arrow-right"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="blog-snippet">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a blog-block-a">
+                        <span>Naturales dum aliquo iniuste nostris arridens. Veterum similia tribuat numen corrupti placuit, occultum has delicatissimi, invidiae suscipiet proposita istis torquate</span>
+                    </div>
+                    <div class="ui-block-b blog-block-b">
+                        <div class="ui-icon-arrow-right"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="blog-snippet">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a blog-block-a">
+                        <span>Naturae erit saxum aperiam confirmavit stoicos interiret captet</span>
+                    </div>
+                    <div class="ui-block-b blog-block-b">
+                        <div class="ui-icon-arrow-right"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="blog-snippet">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a blog-block-a">
+                        <span>Asperiores ennii vituperata assentior amicitiae privatione comparare, infimum constringendos facete flagitem operam derigatur aequitatem numen, consedit dissidens emancipaverat, amori naturae eo imperiis copulationesque improbe ratione, legum, pluribus necesse laudem utraque auctori. Obiecta ponendam habet detraxisse conetur. Hostem alliciat interpretaris artifex pueros quotsententiam augendas res claudicare, quieti arbitror res vestra</span>
+                    </div>
+                    <div class="ui-block-b blog-block-b">
+                        <div class="ui-icon-arrow-right"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="blog-snippet">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a blog-block-a">
+                        <span>Adhuc ordiamur ceterorum perfruique quaeritur quietem detractis quamvis puto, ei ornatum quaeritur.</span>
+                    </div>
+                    <div class="ui-block-b blog-block-b">
+                        <div class="ui-icon-arrow-right"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="blog-snippet">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a blog-block-a">
+                        <span>Quantaque quidque manu eventurum modis constituto probarent nemore tractatos. Magnopere recordamur conetur ingenii umbram contra</span>
+                    </div>
+                    <div class="ui-block-b blog-block-b">
+                        <div class="ui-icon-arrow-right"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="blog-snippet">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a blog-block-a">
+                        <span>Praeda, quippe conquisitis tua legant imperii cumanum ponit</span>
+                    </div>
+                    <div class="ui-block-b blog-block-b">
+                        <div class="ui-icon-arrow-right"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="blog-snippet">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a blog-block-a">
+                        <span>Naturales dum aliquo iniuste nostris arridens. Veterum similia tribuat numen corrupti placuit, occultum has delicatissimi, invidiae suscipiet proposita istis torquate</span>
+                    </div>
+                    <div class="ui-block-b blog-block-b">
+                        <div class="ui-icon-arrow-right"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="blog-snippet">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a blog-block-a">
+                        <span>Naturae erit saxum aperiam confirmavit stoicos interiret captet</span>
+                    </div>
+                    <div class="ui-block-b blog-block-b">
+                        <div class="ui-icon-arrow-right"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="blog-snippet">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a blog-block-a">
+                        <span>Asperiores ennii vituperata assentior amicitiae privatione comparare, infimum constringendos facete flagitem operam derigatur aequitatem numen, consedit dissidens emancipaverat, amori naturae eo imperiis copulationesque improbe ratione, legum, pluribus necesse laudem utraque auctori. Obiecta ponendam habet detraxisse conetur. Hostem alliciat interpretaris artifex pueros quotsententiam augendas res claudicare, quieti arbitror res vestra</span>
+                    </div>
+                    <div class="ui-block-b blog-block-b">
+                        <div class="ui-icon-arrow-right"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="blog-snippet">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a blog-block-a">
+                        <span>Adhuc ordiamur ceterorum perfruique quaeritur quietem detractis quamvis puto, ei ornatum quaeritur.</span>
+                    </div>
+                    <div class="ui-block-b blog-block-b">
+                        <div class="ui-icon-arrow-right"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="blog-snippet">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a blog-block-a">
+                        <span>Quantaque quidque manu eventurum modis constituto probarent nemore tractatos. Magnopere recordamur conetur ingenii umbram contra</span>
+                    </div>
+                    <div class="ui-block-b blog-block-b">
+                        <div class="ui-icon-arrow-right"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="blog-snippet">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a blog-block-a">
+                        <span>Quantaque quidque manu eventurum modis constituto probarent nemore tractatos. Magnopere recordamur conetur ingenii umbram contra</span>
+                    </div>
+                    <div class="ui-block-b blog-block-b">
+                        <div class="ui-icon-arrow-right"></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- /content -->
+<!-- @header -->
+
+<!-- /header -->
+<!-- @content -->
+<div data-role="content">
+    <div id="home-bar-one">
+        <div class="sedgewick architecture">
+            <p>Sedgewick &amp; Ferweda</p>
+        </div>
+    </div>
+    <div id="img-slide-container" class="l-end main-img centered full-box-shadow">
+        <div data-inline="true" data-role="button" class="r-arrow init" data-icon="arrow-right" data-iconpos="notext" data-mini="true" data-theme="d"></div>
+        <div data-inline="true" data-role="button" data-icon="arrow-left" class="l-arrow init" data-iconpos="notext" data-mini="true" data-theme="d"></div>
+        <div id="slide-container" class="img-0">
+            <div class="slide-holder">
+                <img class="img-slide" src="imgs/one.jpg" />
+            </div>
+            <div class="slide-holder">
+                <img class="img-slide" src="imgs/two.jpg" />
+            </div>
+            <div class="slide-holder">
+                <img class="img-slide" src="imgs/three.jpg" />
+            </div>
+            <div class="slide-holder">
+                <img class="img-slide" src="imgs/four.jpg" />
+            </div>
+            <div class="slide-holder">
+                <img class="img-slide" src="imgs/five.jpg" />
+            </div>
+            <div class="slide-holder">
+                <img class="img-slide" src="imgs/six.jpg" />
+            </div>
+        </div>
+    </div>
+    <div class="c-botique">
+        <div class="botique oleoscriptswashcaps">
+            <p>A Boutique Architecture Firm</p>
+        </div>
+    </div>
+    <div class="ui-grid-a home">
+        <div class="ui-block-a">
+            <img src="imgs/sflogo_img_only.svg" class="large-logo" />
+        </div>
+        <div class="ui-block-b">
+            <small>
+                <a rel="external" href="http://www.sfarch.us">http://www.sfarch.us</a>
+            </small>
+        </div>
+    </div>
+</div>
+    <!-- content -->
+    <!-- @footer -->
+<!-- /header -->
+<div data-role="panel" id="panel-project-list">
+    <div class="panel-header ui-bar ui-bar-b">
+        <small>Some Of Our Work</small>
+    </div>
+    <div id="pc-project-list-content" class="panel-content" data-iscroll>
+        <div class="iscroll-padding">
+            <ul id="main-project-list" class="myUl myPanelUl raleway">
+                <li id="newburghdialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Newburgh Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="ethanallenchicago" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Ethan Allen Chicago</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="appledialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Apple Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="graylinghhdcapdtrainingcenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Grayling HHD/CAPD Training Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="almadialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Alma Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="dr.justindeydentaloffice" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Dr. Justin Dey Dental Office</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="saginawdialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Saginaw Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="rogerscitydialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Rogers City Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="vehiclecityharleydavidson" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Vehicle City Harley Davidson</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="bethanymethodistchurch" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Bethany Methodist Church</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="mt.morrisdialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Mt. Morris Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="burtondialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Burton Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="westbloomfielddialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">West Bloomfield Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="waterforddialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Waterford Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="artsandtechnologyacademyofpontiac" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Arts and Technology Academy of Pontiac</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="monroedialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Monroe Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="tiffindialysiscenter-mercyhospitaltiffincampus" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Tiffin Dialysis Center- Mercy Hospital Tiffin Campus</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="royaloakdialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Royal Oak Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="newcenterdialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">New Center Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="kresgedialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Kresge Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="harperwoodsdialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Harper Woods Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="riverwooddialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Riverwood Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="davitahhdcapdtrainingcenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">DaVita HHD/CAPD Training Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="riverviewdialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Riverview Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="annarbordialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Ann Arbor Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="walkerdialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Walker Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="bloomfieldhhdcapdtrainingcenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Bloomfield HHD/CAPD Training Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="grandrapidshhdcapdtrainingcenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Grand Rapids HHDCAPD Training Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="nortonshoresdialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Norton Shores Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="ypsilantidialysiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Ypsilanti Dialysis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="grandblancdiaylsiscenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Grand Blanc Diaylsis Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="grandblanchhdcapdtrainingcenter" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Grand Blanc HHD/CAPD Training Center</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="sonitroltri-county" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Sonitrol Tri-County</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="ethanallengrandrapids" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Ethan Allen Grand Rapids</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="ethanallenlansing" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Ethan Allen Lansing</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="uofmflint" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">U of M Flint</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="grandblancacademy" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Grand Blanc Academy</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="tacomfitnesscenteratdetroitarsenalarmygarrison" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Tacom Fitness Center at Detroit Arsenal Army Garrison</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="savagecircleattacomdetroitarsenalarmygarrison" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Savage Circle at Tacom Detroit Arsenal Army Garrison</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="clioanimalhospital" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Clio Animal Hospital</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="greaterflintsportsmedicine" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Greater Flint Sports Medicine</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="crystalgardensweddingchapel" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Crystal Gardens Wedding Chapel</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="miobaptistchurch" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Mio Baptist Church</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="washingtonsquareparkzoo" class="list-project">
+                    <div class="ui-grid-a project-grid">
+                        <div class="ui-block-a">Washington Square Park Zoo</div>
+                        <div class="ui-block-b">
+                            <div class="ui-icon-location"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div data-role="content">
+    <div id="mapContainer">
+        <div id="svgMap">
+
+        </div>
+    </div>
+</div>
+<!-- /content -->
+<!-- /footer -->
+<!-- @contentpanel -->
+<li id="newburghdialysiscenter" class="list-project raleway">Newburgh Dialysis Center</li>
+<li id="ethanallenchicago" class="list-project raleway">Ethan Allen Chicago</li>
+<li id="appledialysiscenter" class="list-project raleway">Apple Dialysis Center</li>
+<li id="graylinghhdcapdtrainingcenter" class="list-project raleway">Grayling HHD/CAPD Training Center</li>
+<li id="almadialysiscenter" class="list-project raleway">Alma Dialysis Center</li>
+<li id="dr.justindeydentaloffice" class="list-project raleway">Dr. Justin Dey Dental Office</li>
+<li id="saginawdialysiscenter" class="list-project raleway">Saginaw Dialysis Center</li>
+<li id="rogerscitydialysiscenter" class="list-project raleway">Rogers City Dialysis Center</li>
+<li id="vehiclecityharleydavidson" class="list-project raleway">Vehicle City Harley Davidson</li>
+<li id="bethanymethodistchurch" class="list-project raleway">Bethany Methodist Church</li>
+<li id="mt.morrisdialysiscenter" class="list-project raleway">Mt. Morris Dialysis Center</li>
+<li id="burtondialysiscenter" class="list-project raleway">Burton Dialysis Center</li>
+<li id="westbloomfielddialysiscenter" class="list-project raleway">West Bloomfield Dialysis Center</li>
+<li id="waterforddialysiscenter" class="list-project raleway">Waterford Dialysis Center</li>
+<li id="artsandtechnologyacademyofpontiac" class="list-project raleway">Arts and Technology Academy of Pontiac</li>
+<li id="monroedialysiscenter" class="list-project raleway">Monroe Dialysis Center</li>
+<li id="tiffindialysiscenter-mercyhospitaltiffincampus" class="list-project raleway">Tiffin Dialysis Center- Mercy Hospital Tiffin Campus</li>
+<li id="royaloakdialysiscenter" class="list-project raleway">Royal Oak Dialysis Center</li>
+<li id="newcenterdialysiscenter" class="list-project raleway">New Center Dialysis Center</li>
+<li id="kresgedialysiscenter" class="list-project raleway">Kresge Dialysis Center</li>
+<li id="harperwoodsdialysiscenter" class="list-project raleway">Harper Woods Dialysis Center</li>
+<li id="riverwooddialysiscenter" class="list-project raleway">Riverwood Dialysis Center</li>
+<li id="davitahhdcapdtrainingcenter" class="list-project raleway">DaVita HHD/CAPD Training Center</li>
+<li id="riverviewdialysiscenter" class="list-project raleway">Riverview Dialysis Center</li>
+<li id="annarbordialysiscenter" class="list-project raleway">Ann Arbor Dialysis Center</li>
+<li id="walkerdialysiscenter" class="list-project raleway">Walker Dialysis Center</li>
+<li id="bloomfieldhhdcapdtrainingcenter" class="list-project raleway">Bloomfield HHD/CAPD Training Center</li>
+<li id="grandrapidshhdcapdtrainingcenter" class="list-project raleway">Grand Rapids HHDCAPD Training Center</li>
+<li id="nortonshoresdialysiscenter" class="list-project raleway">Norton Shores Dialysis Center</li>
+<li id="ypsilantidialysiscenter" class="list-project raleway">Ypsilanti Dialysis Center</li>
+<li id="grandblancdiaylsiscenter" class="list-project raleway">Grand Blanc Diaylsis Center</li>
+<li id="grandblanchhdcapdtrainingcenter" class="list-project raleway">Grand Blanc HHD/CAPD Training Center</li>
+<li id="sonitroltri-county" class="list-project raleway">Sonitrol Tri-County</li>
+<li id="ethanallengrandrapids" class="list-project raleway">Ethan Allen Grand Rapids</li>
+<li id="ethanallenlansing" class="list-project raleway">Ethan Allen Lansing</li>
+<li id="uofmflint" class="list-project raleway">U of M Flint</li>
+<li id="grandblancacademy" class="list-project raleway">Grand Blanc Academy</li>
+<li id="tacomfitnesscenteratdetroitarsenalarmygarrison" class="list-project raleway">Tacom Fitness Center at Detroit Arsenal Army Garrison</li>
+<li id="savagecircleattacomdetroitarsenalarmygarrison" class="list-project raleway">Savage Circle at Tacom Detroit Arsenal Army Garrison</li>
+<li id="clioanimalhospital" class="list-project raleway">Clio Animal Hospital</li>
+<li id="greaterflintsportsmedicine" class="list-project raleway">Greater Flint Sports Medicine</li>
+<li id="crystalgardensweddingchapel" class="list-project raleway">Crystal Gardens Wedding Chapel</li>
+<li id="miobaptistchurch" class="list-project raleway">Mio Baptist Church</li>
+<li id="washingtonsquareparkzoo" class="list-project raleway">Washington Square Park Zoo</li>
+

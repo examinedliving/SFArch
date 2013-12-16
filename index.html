@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sedgewick &amp; Ferweda Architecture</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Set a shorter title for iOS6 devices when saved to home screen -->
+    <meta name="apple-mobile-web-app-title" content="SFArch">
+
+    <!-- Set Apple icons for when prototype is saved to home screen -->
+    <link rel="apple-touch-icon" sizes="120x120" href="images/icon/512.png">
+    <!--     <link rel="apple-touch-icon" sizes="114x114" href="images/icon/iPhone_app_@2x/114.jpg"> -->
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icon/ios_icon_460.jpg">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/icon/ios_icon_460.jpg">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link rel="stylesheet" href="css/third-party/ratchet.css">
+    <link rel="stylesheet" href="css/third-party/flexslider.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/third-party/animate-custom.css">
+    <link rel="stylesheet" type="text/css" href="css/queries/iphone_1_to_4s.css">
+    <link rel="stylesheet" type="text/css" href="css/queries/ipad_all.css">
+    <link rel="stylesheet" type="text/css" href="css/queries/ipad_non_retina.css">
+    <link rel="stylesheet" type="text/css" href="css/queries/ipad_retina.css">
+    <link rel="stylesheet" type="text/css" href="css/queries/iphone_4s.css">
+    <link rel="stylesheet" type="text/css" href="css/queries/iphone_5.css">
+    <link rel="stylesheet" type="text/css" href="css/queries/iphone_all.css">
+    <link rel="stylesheet" type="text/css" href="css/queries/retina_all.css">
+    <link rel="stylesheet" type="text/css" href="css/queries/non_retina_all.css">
+    <link rel="stylesheet" href="css/font.css">
+    <!-- Include the compiled Ratchet JS -->
+    <script>
+    sf = {
+        activePage: false,
+        device: {},
+        blog:[],
+        blogReady:0
+    };
+    map = {};
+    </script>
+    <script src="js/third-party/iscroll-lite.js"></script>
+    <script src="js/third-party/fastclick.min.js"></script>
+    <script src="js/third-party/jquery-2.0.3.min.js"></script>
+    <script src="js/modules/vanilla.js"></script>
+    <script src="js/third-party/jquery.flexslider-min.js"></script>
+    <script src="js/third-party/fittext.min.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar-title">
+        <h1 class="title architecture">Sedgewick &amp; Ferweda Architects
+            <span class="ui-icon ui-icon-sf_logo small-icon"></span>
+        </h1>
+    </header>
+    <nav class="bar-tab">
+        <ul class="tab-inner">
+            <li data-page="home" class="tab-item active">
+                <a href="#">
+                    <div class="ui-icon ui-icon-house tab-icon"></div>
+                </a>
+            </li>
+            <li class="tab-item" data-page="about">
+                <a href="#">
+                    <div class="tab-icon ui-icon ui-icon-sf_logo"></div>
+                </a>
+
+            </li>
+            <li data-page="map" class="tab-item">
+                <a href="#">
+                    <div class="tab-icon ui-icon ui-icon-map"></div>
+                </a>
+            </li>
+            <li data-page="blog" class="tab-item">
+                <a href="#">
+                    <div class="tab-icon ui-icon ui-icon-pencil"></div>
+                </a>
+            </li>
+            <li data-page="contact" class="tab-item">
+                <a href="#">
+                    <div class="tab-icon ui-icon ui-icon-phone"></div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+
+        <!-- begin #home-content -->
+
+        <div id="home-content" data-page="home" class="page" style="-webkit-transform:translate3d(0,0,0);">
+            <div class="container">
+                <div class="box heading">
+                    <div class="row architecture slogan">
+                        <h5>Good Design. Good Clients. Great Architecture.</h5>
+                    </div>
+                </div>
+                <div class="slider device" id="work_photos">
+                    <ul class="slides">
+                        <li class="device">
+                            <img class="device" data-src="1.jpg" src="" />
+                        </li>
+                        <li class="device">
+                            <img class="device" data-src="2.jpg" src="" />
+                        </li>
+                        <li class="device">
+                            <img class="device" data-src="3.jpg" src="" />
+                        </li>
+                        <li class="device">
+                            <img class="device" data-src="4.jpg" src="" />
+                        </li>
+                        <li class="device">
+                            <img class="device" data-src="5.jpg" src="" />
+                        </li>
+                        <li class="device">
+                            <img class="device" data-src="6.jpg" src="" />
+                        </li>
+                        <li class="device">
+                            <img class="device" data-src="7.jpg" src="" />
+                        </li>
+                        <li class="device">
+                            <img class="device" data-src="8.jpg" src="" />
+                        </li>
+                        <li class="device">
+                            <img class="device" data-src="9.jpg" src="" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="box logo">
+                    <div class="row">
+                        <div class="cell text">
+                            <section class="sfarchology">
+                                <p>Check Out Our Blog</p>
+                                <p class="architecture tada" style="display:none;">
+                                    <a id="blog-link"><dfn>SFArchology</dfn></a>
+                                </p>
+                            </section>
+                        </div>
+                        <div class="cell img">
+                            <img id="logo" src="images/assets/sflogo.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end #home-content -->
+
+        <div id="about-content" data-page="about" class="page" style="-webkit-transform:translate3d(3200px,0,0);">
+            <div id="scroll-header" class="box heading scroll-header">
+                <div class="row architecture slogan">
+                    <h5>A Boutique Architecture Firm</h5>
+                </div>
+            </div>
+            <div class="iscroll-container" id="about-iscroll">
+                <div>
+                    <section class="slider device" id="drawing_photos">
+                        <ul class="slides">
+                            <li class="device">
+                                <img class="device" data-src="1.jpg" src="">
+                            </li>
+                            <li class="device">
+                                <img class="device" data-src="2.jpg" src="">
+                            </li>
+                            <li class="device">
+                                <img class="device" data-src="3.jpg" src="">
+                            </li>
+                            <li class="device">
+                                <img class="device" data-src="4.jpg" src="">
+                            </li>
+                            <li class="device">
+                                <img class="device" data-src="5.jpg" src="">
+                            </li>
+                            <li class="device">
+                                <img class="device" data-src="6.jpg" src="">
+                            </li>
+                            <li class="device">
+                                <img class="device" data-src="7.jpg" src="">
+                            </li>
+                            <li class="device">
+                                <img class="device" data-src="8.jpg" src="">
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="section_p">
+                        <p>
+                            <span class="architecture">Sedgewick &amp; Ferweda Architects</span> is one cool group of architects in Flint, MI. Our work encompasses a variety of building typologies and urban design with a legacy that few boutique architecture firms can claim. For us, excellent design is the outcome of a collaborative relationship between architect and client:
+                        </p>
+                        <p class="architecture">Good Design. Good Clients. Great Architecture.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <!-- start map -->
+        <div id="map-content" data-page="map" class="page" style="-webkit-transform:translate3d(6400px,0,0);">
+            <div class="container">
+                <nav class="controller-container">
+                    <ul class="segmented-controller architecture">
+                        <li class="active">
+                            <a>On The Map</a>
+                        </li>
+                        <li>
+                            <a>Project List</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="mapContainer">
+                    <div id="svgMap"></div>
+                    <div id="mapInfo">
+                        <p>Here is a selection of our works. You can see a list of the project names by selecting the project list tab above. You may zoom in or out with plus/minus buttons.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end map -->
+
+        <div id="listContainer" class="page" style="-webkit-transform:translate3d(6400px,-480px,0);">
+            <div id="project-close" class="close">
+                <div id="pc-touch-area">
+                    <span>Tap To Hide List</span>
+                    <span class="ui-icon ui-icon-minus"></span>
+                </div>
+            </div>
+            <div id="map-iscroll-base">
+                <div class="iscroll-container" id="map-scroll">
+                    <div>
+                        <ul id="projectList" class="list">
+                            <li id="newburghdialysiscenter" class="list-project">
+                                <div class="article-caption">Newburgh Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="ethanallenchicago" class="list-project">
+                                <div class="article-caption">Ethan Allen Chicago</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="appledialysiscenter" class="list-project">
+                                <div class="article-caption">Apple Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="graylinghhdcapdtrainingcenter" class="list-project">
+                                <div class="article-caption">Grayling HHD/CAPD Training Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="almadialysiscenter" class="list-project">
+                                <div class="article-caption">Alma Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="dr.justindeydentaloffice" class="list-project">
+                                <div class="article-caption">Dr. Justin Dey Dental Office</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="saginawdialysiscenter" class="list-project">
+                                <div class="article-caption">Saginaw Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="rogerscitydialysiscenter" class="list-project">
+                                <div class="article-caption">Rogers City Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="vehiclecityharleydavidson" class="list-project">
+                                <div class="article-caption">Vehicle City Harley Davidson</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="bethanymethodistchurch" class="list-project">
+                                <div class="article-caption">Bethany Methodist Church</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="mt.morrisdialysiscenter" class="list-project">
+                                <div class="article-caption">Mt. Morris Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="burtondialysiscenter" class="list-project">
+                                <div class="article-caption">Burton Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="westbloomfielddialysiscenter" class="list-project">
+                                <div class="article-caption">West Bloomfield Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="waterforddialysiscenter" class="list-project">
+                                <div class="article-caption">Waterford Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="artsandtechnologyacademyofpontiac" class="list-project">
+                                <div class="article-caption">Arts and Technology Academy of Pontiac</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="monroedialysiscenter" class="list-project">
+                                <div class="article-caption">Monroe Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="tiffindialysiscenter-mercyhospitaltiffincampus" class="list-project">
+                                <div class="article-caption">Tiffin Dialysis Center- Mercy Hospital Tiffin Campus</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="royaloakdialysiscenter" class="list-project">
+                                <div class="article-caption">Royal Oak Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="newcenterdialysiscenter" class="list-project">
+                                <div class="article-caption">New Center Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="kresgedialysiscenter" class="list-project">
+                                <div class="article-caption">Kresge Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="harperwoodsdialysiscenter" class="list-project">
+                                <div class="article-caption">Harper Woods Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="riverwooddialysiscenter" class="list-project">
+                                <div class="article-caption">Riverwood Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="davitahhdcapdtrainingcenter" class="list-project">
+                                <div class="article-caption">DaVita HHD/CAPD Training Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="riverviewdialysiscenter" class="list-project">
+                                <div class="article-caption">Riverview Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="annarbordialysiscenter" class="list-project">
+                                <div class="article-caption">Ann Arbor Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="walkerdialysiscenter" class="list-project">
+                                <div class="article-caption">Walker Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="bloomfieldhhdcapdtrainingcenter" class="list-project">
+                                <div class="article-caption">Bloomfield HHD/CAPD Training Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="grandrapidshhdcapdtrainingcenter" class="list-project">
+                                <div class="article-caption">Grand Rapids HHDCAPD Training Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="nortonshoresdialysiscenter" class="list-project">
+                                <div class="article-caption">Norton Shores Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="ypsilantidialysiscenter" class="list-project">
+                                <div class="article-caption">Ypsilanti Dialysis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="grandblancdiaylsiscenter" class="list-project">
+                                <div class="article-caption">Grand Blanc Diaylsis Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="grandblanchhdcapdtrainingcenter" class="list-project">
+                                <div class="article-caption">Grand Blanc HHD/CAPD Training Center</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="sonitroltri-county" class="list-project">
+                                <div class="article-caption">Sonitrol Tri-County</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="ethanallengrandrapids" class="list-project">
+                                <div class="article-caption">Ethan Allen Grand Rapids</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="ethanallenlansing" class="list-project">
+                                <div class="article-caption">Ethan Allen Lansing</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="uofmflint" class="list-project">
+                                <div class="article-caption">U of M Flint</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="grandblancacademy" class="list-project">
+                                <div class="article-caption">Grand Blanc Academy</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="tacomfitnesscenteratdetroitarsenalarmygarrison" class="list-project">
+                                <div class="article-caption">Tacom Fitness Center at Detroit Arsenal Army Garrison</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="savagecircleattacomdetroitarsenalarmygarrison" class="list-project">
+                                <div class="article-caption">Savage Circle at Tacom Detroit Arsenal Army Garrison</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="clioanimalhospital" class="list-project">
+                                <div class="article-caption">Clio Animal Hospital</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="greaterflintsportsmedicine" class="list-project">
+                                <div class="article-caption">Greater Flint Sports Medicine</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="crystalgardensweddingchapel" class="list-project">
+                                <div class="article-caption">Crystal Gardens Wedding Chapel</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="miobaptistchurch" class="list-project">
+                                <div class="article-caption">Mio Baptist Church</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li id="washingtonsquareparkzoo" class="list-project">
+                                <div class="article-caption">Washington Square Park Zoo</div>
+                                <div class="ui-icon ui-icon-location"></div>
+                            </li>
+                            <li>
+                                <div class="spacer">Spacer</div>
+                                <div></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="blog-content" data-page="blog" class="page" style="-webkit-transform:translate3d(9600px,0,0);">
+            <div class="heading box">
+                <div class="architecture row slogan">
+                    <h5>
+                        <dfn>Sfarch•ol•o•gy</dfn>
+                    </h5>
+                </div>
+            </div>
+            <div id="blog-scroll-wrapper">
+                <div id="blog-scroll">
+                    <div>
+                        <ul class="list" id="blogs">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div id="contact-content" data-page="content" class="page" style="-webkit-transform:translate3d(12800px,0,0);">
+            <div class="container">
+                <section class="contact-us">
+                    <div class="row label first">
+                        <div class="list-label architecture">Contact Us</div>
+                            <div class="icons">
+                                <div class="ui-icon ui-icon-phone"></div>
+                                <div class="ui-icon ui-icon-phone"></div>
+                                <div class="ui-icon ui-icon-phone"></div>
+                            </div>
+                    </div>
+                    <div class="row spacer"></div>
+                    <div class="row">
+                        <div class="list-key">Phone</div>
+                        <div class="list-value"><a id="phone" href="tel:810.238.9647">810.238.9647</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="list-key">Fax</div>
+                        <div id="fax" class="list-value">810.238.4900</div>
+                    </div>
+                    <div class="row">
+                        <div class="list-key">Email</div>
+                        <div class="list-value"><a id="email" href="mailto:design@sfarch.us">design@sfarch.us</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="list-key">Our Website</div>
+                        <div class="list-value"><a id="homepage" href="http://www.sfarch.us/">http://www.sfarch.us</a></div>
+                    </div>
+                    <div class="row spacer"></div>
+                </section>
+                <section class="read-us">
+                    <div class="row label third">
+                        <div class="list-label architecture">SFArchology</div>
+                        <div class="ui-icon ui-icon-books"></div>
+                    </div>
+                    <div class="row">
+                        <div class="list-key labeled">Our Blog:</div>
+                        <div class="list-value"><a id="blog" href="http://www.sfarch.us/blog">http://www.sfarch.us/blog</a></div>
+                    </div>
+                </section>
+                <section class="visit-us">
+                    <div class="row spacer"></div>
+                    <div class="row label fourth">
+                    <div class="address">
+                        <address>
+                            <h4>Sedgewick &amp; Ferweda Architects, Inc</h4>
+                            <dl>
+                                <dt>410 E. Court St.</dt>
+                                <dt>Flint, MI 48503</dt>
+                            </dl>
+                        </address>
+                    </div>
+                    <div class="ui-icon ui-icon-pin-alt"></div>
+                    </div>
+                    <div class="row fifth label" id="contact-logo">
+                        <div id=""><a>Get Directions To Our Office</a></div>
+                        <div id="contact-logo"><img src="images/assets/sflogo_no_bg_230.svg"></div>
+                    </div>
+                </section>
+            </div>
+        </div>-->
+        <div id="contact-content" class="page" data-page="contact" style="-webkit-transform:translate3d(12800px,0,0);">
+            <div class="container">
+                <section class="contact-us">
+                    <div class="row btn-split">
+                        <div class="split-btn">
+                            <a class="btn-inner ui-icon ui-icon-phone"></a>
+                            <a class="btn-inner btn-text">248-555-1212</a>
+                        </div>
+                    </div>
+                    <div class="row btn-split">
+                        <div class="split-btn">
+                            <a class="btn-inner ui-icon ui-icon-fax"></a>
+                            <a class="btn-inner btn-text">248-555-1212</a>
+                        </div>
+                    </div>
+                    <div class="row btn-split">
+                        <div class="split-btn">
+                            <a class="btn-inner ui-icon ui-icon-mail"></a>
+                            <a class="btn-inner btn-text">248-555-1212</a>
+                        </div>
+                    </div>
+                    <div class="row btn-split">
+                        <div class="split-btn">
+                            <a class="btn-inner ui-icon ui-icon-safari"></a>
+                            <a class="btn-inner btn-text">248-555-1212</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="blog-us">
+                    <div class="row"></div>
+                </section>
+                <section class="find-us">
+                    <div class="row"></div>
+                </section>
+            </div>
+        </div>
+        </div>
+         <div class="subpage" style="translate3d(12800px,-4800px,0);" id="b-article-wrapper">
+                <div id="b-container">
+                    <div class="inner-content">
+                        <div class="heading box">
+                            <div class="architecture row slogan">
+                                <div class="cell"><div class="ui-icon ui-icon-arrow-left"></div></div>
+                                <div class="cell text"><h5></h5></div>
+                            </div>
+                        </div>
+                        <div id="b-container-iscroll">
+                            <div>
+                                <div class="b-article-wrapping">
+                                    <article class="blog-article" data-id="">
+                                        <div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div id="global-loading">
+            <div id="logo-wrapper">
+                <div>
+                    <img src="images/assets/sflogo_no_bg_230.svg" />
+                </div>
+            </div>
+            <div id="global-loader">
+                <div id="loading-animation">
+                    <div id="spinner" class="active">
+                        <span id="ball_1" class="spinner_ball"></span>
+                        <span id="ball_2" class="spinner_ball"></span>
+                        <span id="ball_3" class="spinner_ball"></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

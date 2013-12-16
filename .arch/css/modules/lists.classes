@@ -1,0 +1,52 @@
+[{
+	"selector": ".list",
+	"style": "margin-bottom: 10px; list-style: none; background-color: rgb(255, 255, 255);"
+}, {
+	"selector": ".list li",
+	"style": "position: relative; padding: 11px 60px 11px 10px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgba(0, 0, 0, 0.0980392);"
+}, {
+	"selector": ".list li:first-child",
+	"style": "border-top-width: 1px; border-top-style: solid; border-top-color: rgba(0, 0, 0, 0.0980392);"
+}, {
+	"selector": ".list.inset",
+	"style": "width: auto; margin-right: 10px; margin-left: 10px; border: 1px solid rgba(0, 0, 0, 0.0980392); border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; box-sizing: border-box;"
+}, {
+	"selector": ".list.inset li:first-child",
+	"style": "border-top-width: 0px;"
+}, {
+	"selector": ".list.inset li:last-child",
+	"style": "border-bottom-width: 0px;"
+}, {
+	"selector": ".list .list-divider",
+	"style": "position: relative; top: -1px; padding-top: 6px; padding-bottom: 6px; font-size: 12px; font-weight: bold; line-height: 18px; text-shadow: rgba(255, 255, 255, 0.498039) 0px 1px 0px; background-color: rgb(248, 248, 248); background-image: linear-gradient(rgb(248, 248, 248) 0px, rgb(238, 238, 238) 100%); border-top-width: 1px; border-top-style: solid; border-top-color: rgba(0, 0, 0, 0.0980392); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgba(0, 0, 0, 0.0980392); box-shadow: rgba(255, 255, 255, 0.4) 0px 1px 1px inset;"
+}, {
+	"selector": ".list.inset .list-divider:first-child",
+	"style": "top: 0px; border-top-width: 0px; border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;"
+}, {
+	"selector": ".list.inset .list-divider:last-child",
+	"style": "border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px;"
+}, {
+	"selector": ".list .chevron, .list [class*=\"count\"]",
+	"style": "margin-top: -10px;"
+}, {
+	"selector": ".list .chevron + [class*=\"count\"]",
+	"style": "right: 30px;"
+}, {
+	"selector": ".list .toggle",
+	"style": "margin-top: -15px;"
+}, {
+	"selector": ".chevron",
+	"style": "display: block; height: 20px;"
+}, {
+	"selector": ".chevron::before, .chevron::after",
+	"style": "position: relative; display: block; width: 12px; height: 4px; background-color: rgb(153, 153, 153); content: '';"
+}, {
+	"selector": ".chevron::before",
+	"style": "top: 5px; -webkit-transform: rotate(45deg);"
+}, {
+	"selector": ".chevron::after",
+	"style": "top: 7px; -webkit-transform: rotate(-45deg);"
+}, {
+	"selector": ".popover .list",
+	"style": "width: auto; max-height: 250px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; overflow: auto; background-color: rgb(255, 255, 255); border: 1px solid rgb(0, 0, 0); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;"
+}]

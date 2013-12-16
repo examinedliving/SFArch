@@ -1,0 +1,169 @@
+@font-face {
+	font-family: 'sf';
+	src:url('fonts/sf.ttf') format('truetype'),
+		url('fonts/sf.woff') format('woff'),
+		url('fonts/sf.svg#sf') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Architecture';
+	src:url('fonts/Architecture.ttf');
+}
+
+.ui-icon {
+	font-family: 'sf';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.architecture {
+	font-family: 'Architecture';
+}
+
+.ui-icon-bug:before {
+	content: "\e602";
+}
+.ui-icon-pin-alt:before {
+	content: "\e605";
+}
+.ui-icon-link:before {
+	content: "\e606";
+}
+.ui-icon-twitter:before {
+	content: "\e607";
+}
+.ui-icon-facebook:before {
+	content: "\e608";
+}
+.ui-icon-google-plus:before {
+	content: "\e609";
+}
+.ui-icon-google:before {
+	content: "\e60a";
+}
+.ui-icon-rss:before {
+	content: "\e60b";
+}
+.ui-icon-wordpress:before {
+	content: "\e60c";
+}
+.ui-icon-library:before {
+	content: "\e60d";
+}
+.ui-icon-star:before {
+	content: "\e60e";
+}
+.ui-icon-star2:before {
+	content: "\e60f";
+}
+.ui-icon-bookmark:before {
+	content: "\e610";
+}
+.ui-icon-books:before {
+	content: "\e611";
+}
+.ui-icon-expand3:before {
+	content: "\e612";
+}
+.ui-icon-close:before {
+	content: "\e613";
+}
+.ui-icon-expand:before {
+	content: "\e614";
+}
+.ui-icon-alarm:before {
+	content: "\e615";
+}
+.ui-icon-blog:before {
+	content: "\e616";
+}
+.ui-icon-office:before {
+	content: "\e617";
+}
+.ui-icon-expand2:before {
+	content: "\e618";
+}
+.ui-icon-linkedin:before {
+	content: "\e600";
+}
+.ui-icon-address-book:before {
+	content: "\e601";
+}
+.ui-icon-zoom-in:before {
+	content: "\e603";
+}
+.ui-icon-zoom-out:before {
+	content: "\e604";
+}
+.ui-icon-arrow-left:before {
+	content: "\e006";
+}
+.ui-icon-arrow-down:before {
+	content: "\e007";
+}
+.ui-icon-arrow-right:before {
+	content: "\e009";
+}
+.ui-icon-arrow-up:before {
+	content: "\e008";
+}
+.ui-icon-safari:before {
+	content: "\e003";
+}
+.ui-icon-plus:before {
+	content: "\e00f";
+}
+.ui-icon-minus:before {
+	content: "\e010";
+}
+.ui-icon-phone:before {
+	content: "\e012";
+}
+.ui-icon-export:before {
+	content: "\e016";
+}
+.ui-icon-house:before {
+	content: "\e017";
+}
+.ui-icon-world:before {
+	content: "\e013";
+}
+.ui-icon-location:before {
+	content: "\e00b";
+}
+.ui-icon-map:before {
+	content: "\e005";
+}
+.ui-icon-pencil:before {
+	content: "\e004";
+}
+.ui-icon-pencil-2:before {
+	content: "\e001";
+}
+.ui-icon-mail:before {
+	content: "\e011";
+}
+.ui-icon-info:before {
+	content: "\e000";
+}
+.ui-icon-chat:before {
+	content: "\e014";
+}
+.ui-icon-sf_logo:before {
+	content: "\e018";
+}
+.ui-icon-fax:before {
+	content: "\e61b";
+}
+.ui-icon-menu:before {
+	content: "\e61a";
+}

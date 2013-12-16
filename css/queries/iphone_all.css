@@ -1,0 +1,71 @@
+/* Styles for all iphones */
+
+@media only screen and (min-device-width : 320px) {
+
+	/* global */
+	.page,.subpage {
+		width:320px;
+	}
+
+	/* home */
+	#home-content .box, #home-content .box .row{
+				width:320px;
+	}
+
+	/* about */
+		/* Fix to fill content section on about page */
+	#about-content .iscroll-container {
+		position:relative;
+		padding-top:2px;
+	}
+
+	/* image sliders */
+	#home-content .device {
+		width:320px;
+	}
+	#about-content .device {
+		width:290px;
+	}
+
+	#about-content section {
+	  width:290px;
+	}
+	#about-content .section_p {
+		padding-right:16px;
+		line-height:16px;
+	}
+
+	#about-content .section_p p:last-child {
+		line-height:1.5em;
+		width:290px;
+	}
+	/* Home */
+	/* This is the image logo on the home page */
+	#logo {
+		height:175px;
+	}
+
+	/* Map page elements */
+		#mapContainer {
+		top:30px;
+	}
+	#mapInfo {
+		position:absolute;
+		left:0;
+		right:0;
+		height:68px;
+		bottom:25px;
+	}
+	#mapInfo p,#mapInfo ul {
+		height:68px;
+	}
+
+	/* Contact page elements */
+	.row.btn-split {
+		width:300px;
+	}
+
+
+
+
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ratchet template page</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Set a shorter title for iOS6 devices when saved to home screen -->
+    <meta name="apple-mobile-web-app-title" content="Ratchet">
+
+    <!-- Set Apple icons for when prototype is saved to home screen -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/touch-icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/touch-icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/touch-icons/apple-touch-icon-57x57.png">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link rel="stylesheet" href="css/third-party/ratchet.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font.css">
+    <!-- Include the compiled Ratchet JS -->
+    <script>
+    sf = {
+        activePage: false
+    };
+    </script>
+
+    <!---<script src="js/third-party/segmented-controllers.js"></script>-->
+    <script src="js/third-party/iscroll-lite.js"></script>
+    <script src="js/third-party/fastclick.min.js"></script>
+    <script src="js/third-party/jquery-2.0.3.min.js"></script>
+    <script src="js/modules/vanilla.js"></script>
+    <script src="js/third-party/sliders.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar-title">
+        <h1 class="title architecture">Sedgewick &amp; Ferweda</h1>
+        <a class="button" href="#">
+            <div class="btn-icon ui-icon-phone"></div>
+        </a>
+    </header>
+    <nav class="bar-tab">
+        <ul class="tab-inner">
+            <li data-page="home" class="tab-item active">
+                <a href="#">
+                    <div class="ui-icon-house tab-icon"></div>
+                </a>
+            </li>
+            <li class="tab-item" data-page="about">
+                <a href="#">
+                    <div class="tab-icon ui-icon-sf_logo"></div>
+                </a>
+
+            </li>
+            <li data-page="map" class="tab-item">
+                <a href="#">
+                    <div class="tab-icon ui-icon-map"></div>
+                </a>
+            </li>
+            <li data-page="blog" class="tab-item">
+                <a href="#">
+                    <div class="tab-icon ui-icon-pencil"></div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+        <div id="home-content" data-page="home" class="page active-page pageslide">
+            <div id="home-bar-one">
+                <div id="home-bar-one-inner">
+                    <p>Swipe Gallery Below To See Other Photos</p>
+                </div>
+            </div>
+            <div class="slider" id="work_photos">
+                <ul>
+                    <li>
+                        <img class="device" src="images/photos/two.jpg" />
+                    </li>
+                    <li>
+                        <img class="device" src="images/photos/three.jpg" />
+                    </li>
+                    <li>
+                        <img class="device" src="images/photos/four.jpg" />
+                    </li>
+                    <li>
+                        <img class="device" src="images/photos/five.jpg" />
+                    </li>
+                    <li>
+                        <img class="device" src="images/photos/six.jpg" />
+                    </li>
+                </ul>
+            </div>
+            <div id="home-bar-two">
+                <div id="home-bar-two-inner" class="oleoscriptswashcaps">
+                    <p>A Boutique Architecture Firm</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Content about -->
+
+        <div id="about-content" data-page="about" class="page pageslide inactive-page">
+            <div class="iscroll-container">
+                <section>
+                    <p class="architecture ui-heading">Good Design For Good Clients</p>
+                    <img src="images/photos/blueprint_2_min.jpg" class="shadow device" id="about-main-img" />
+                </section>
+                <section class="section_p">
+                    <p>The firm was founded in 1958 as Sedgewick &amp; Associates, later Sedgewick, Sellers, &amp; Associates, Waterstreet Design, P.C., and finally changed to Sedgewick &amp; Ferweda Architects, without change in philosophy or integrity. The firm represents a tradition of over fifty years of providing quality Architectural services to our community and has been responsible for over one billion dollars (current value) of building construction in-place. The work has encompassed a variety of building and structure types, and represents a continuous record of accomplishments. This background is at the disposal of each of our clients. The updated firm will still provide quality Architectural services to our existing clients, without a change in philosophy or integrity.</p>
+                    <p>Our aim, as originally directed by Tom Sedgewick Sr., and maintained by all of us here, is to be a professional group whose purpose is to translate their clients&#39; desires and wishes into reality. The reality of a humane, pleasing environment, sustainable, economical of construction, budgetable, while accomplishing the client’s intents and desires.</p>
+                </section>
+                <section>
+                    <p>Visit Us On The Web At <a href="http://www.sfarch.us">http://www.sfarch.us</a>
+                    </p>
+                </section>
+            </div>
+        </div>
+        <div id="map-content" data-page="map" class="page pageslide inactive-page">
+            <nav class="controller-container">
+                <ul class="segmented-controller">
+                    <li class="active">
+                        <a>On The Map</a>
+                    </li>
+                    <li>
+                        <a>Project List</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div id="mapContainer">
+                <div id="svgMap">
+
+                </div>
+
+                <div>
+                    <p>Here is a selection of our works. You can see a list of the project names by selecting the project list tab above. You may zoom in or out with plus/minus buttons.</p>
+                </div>
+            </div>
+        </div>
+        <div id="listContainer" class="inactive-page page pageslide">
+            <div id="project-close" class="close">
+                <div id="pc-touch-area">
+                    <span>Tap To Hide List</span>
+                    <span class="ui-icon-minus"></span>
+                </div>
+            </div>
+            <div id="map-iscroll-base">
+                <div class="iscroll-container" id="map-scroll">
+                    <div>
+                        <ul id="projectList" class="list two-cell">
+                            <li id="newburghdialysiscenter" class="list-project"><div class="article-caption">Newburgh Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="ethanallenchicago" class="list-project"><div class="article-caption">Ethan Allen Chicago</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="appledialysiscenter" class="list-project"><div class="article-caption">Apple Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="graylinghhdcapdtrainingcenter" class="list-project"><div class="article-caption">Grayling HHD/CAPD Training Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="almadialysiscenter" class="list-project"><div class="article-caption">Alma Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="dr.justindeydentaloffice" class="list-project"><div class="article-caption">Dr. Justin Dey Dental Office</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="saginawdialysiscenter" class="list-project"><div class="article-caption">Saginaw Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="rogerscitydialysiscenter" class="list-project"><div class="article-caption">Rogers City Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="vehiclecityharleydavidson" class="list-project"><div class="article-caption">Vehicle City Harley Davidson</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="bethanymethodistchurch" class="list-project"><div class="article-caption">Bethany Methodist Church</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="mt.morrisdialysiscenter" class="list-project"><div class="article-caption">Mt. Morris Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="burtondialysiscenter" class="list-project"><div class="article-caption">Burton Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="westbloomfielddialysiscenter" class="list-project"><div class="article-caption">West Bloomfield Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="waterforddialysiscenter" class="list-project"><div class="article-caption">Waterford Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="artsandtechnologyacademyofpontiac" class="list-project"><div class="article-caption">Arts and Technology Academy of Pontiac</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="monroedialysiscenter" class="list-project"><div class="article-caption">Monroe Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="tiffindialysiscenter-mercyhospitaltiffincampus" class="list-project"><div class="article-caption">Tiffin Dialysis Center- Mercy Hospital Tiffin Campus</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="royaloakdialysiscenter" class="list-project"><div class="article-caption">Royal Oak Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="newcenterdialysiscenter" class="list-project"><div class="article-caption">New Center Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="kresgedialysiscenter" class="list-project"><div class="article-caption">Kresge Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="harperwoodsdialysiscenter" class="list-project"><div class="article-caption">Harper Woods Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="riverwooddialysiscenter" class="list-project"><div class="article-caption">Riverwood Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="davitahhdcapdtrainingcenter" class="list-project"><div class="article-caption">DaVita HHD/CAPD Training Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="riverviewdialysiscenter" class="list-project"><div class="article-caption">Riverview Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="annarbordialysiscenter" class="list-project"><div class="article-caption">Ann Arbor Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="walkerdialysiscenter" class="list-project"><div class="article-caption">Walker Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="bloomfieldhhdcapdtrainingcenter" class="list-project"><div class="article-caption">Bloomfield HHD/CAPD Training Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="grandrapidshhdcapdtrainingcenter" class="list-project"><div class="article-caption">Grand Rapids HHDCAPD Training Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="nortonshoresdialysiscenter" class="list-project"><div class="article-caption">Norton Shores Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="ypsilantidialysiscenter" class="list-project"><div class="article-caption">Ypsilanti Dialysis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="grandblancdiaylsiscenter" class="list-project"><div class="article-caption">Grand Blanc Diaylsis Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="grandblanchhdcapdtrainingcenter" class="list-project"><div class="article-caption">Grand Blanc HHD/CAPD Training Center</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="sonitroltri-county" class="list-project"><div class="article-caption">Sonitrol Tri-County</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="ethanallengrandrapids" class="list-project"><div class="article-caption">Ethan Allen Grand Rapids</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="ethanallenlansing" class="list-project"><div class="article-caption">Ethan Allen Lansing</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="uofmflint" class="list-project"><div class="article-caption">U of M Flint</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="grandblancacademy" class="list-project"><div class="article-caption">Grand Blanc Academy</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="tacomfitnesscenteratdetroitarsenalarmygarrison" class="list-project"><div class="article-caption">Tacom Fitness Center at Detroit Arsenal Army Garrison</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="savagecircleattacomdetroitarsenalarmygarrison" class="list-project"><div class="article-caption">Savage Circle at Tacom Detroit Arsenal Army Garrison</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="clioanimalhospital" class="list-project"><div class="article-caption">Clio Animal Hospital</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="greaterflintsportsmedicine" class="list-project"><div class="article-caption">Greater Flint Sports Medicine</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="crystalgardensweddingchapel" class="list-project"><div class="article-caption">Crystal Gardens Wedding Chapel</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="miobaptistchurch" class="list-project"><div class="article-caption">Mio Baptist Church</div><div class="ui-icon-arrow-right"></div></li>
+                            <li id="washingtonsquareparkzoo" class="list-project"><div class="article-caption">Washington Square Park Zoo</div><div class="ui-icon-arrow-right"></div></li>
+                            <li><div class="spacer">Spacer</div><div></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="blog-content" data-page="blog" class="page pageslide inactive-page">
+            <div class="page-heading-wrapper">
+                <h3>Articles:</h3>
+                <p>Check out some articles written by our staff.</p>
+            </div>
+            <div id="blog-scroll-wrapper">
+            <div id="blog-scroll">
+                <div>
+                    <ul class="two-cell list" id="blogs">
+                        <li><div class="article-caption">Explicabo eum antiopam reperietur animadversionis explicatis harum. Scipio ornateque a essent miserum optimi. Instructus hinc dolores petentium graviter desideret eamque iudicia ornatus, servire, constituam municipem itaque graeco totam puto. D.</div><div class="ui-icon-arrow-right"></div></li>
+                        <li><div class="article-caption">Ultima memoria exeamus atomum disserendi medicorum materia saepe ambigua, mox miserum euripidis contereret fuit pariendarum, chrysippo, fecerit effecerit virtutum praeda reprehensione disserunt maiestatis, isti cupiditate iudiciorumque haeret privatione, expectata numquam.</div><div class="ui-icon-arrow-right"></div></li>
+                        <li><div class="article-caption">Molestiam potest eius ullus, adhibuit tantopere suscepi interrogare molestiae virtutibus necesse, conficiuntque omnium antiopam via cn ipsos, andriam cogitarent fecit indicaverunt malle fidem. Continent natum aeque molestiam cupio probarem, via.</div><div class="ui-icon-arrow-right"></div></li>
+                        <li><div class="article-caption">Detractis familiarem magnum, sive huius huic scientiam ipsam causam, triario studuisse vias protervi audaces tenere graecam molestiam, amicitiam eriguntur, convicia, interiret appetendi humili convenire caret dolemus. Eo ferre fugiendis amotio.</div><div class="ui-icon-arrow-right"></div></li>
+                        <li><div class="article-caption">Superstitio adhibuit definitiones repugnantibus iucunda inertissimae simul accusantibus iudicium. Continent benivolentiam parte inculta, aetatis ac. Ipsi honesto velit acuti, sapiens statuat ferae animadversionem futuros habet afficit, aegritudines vituperatoribus inliberali adquiescere.</div><div class="ui-icon-arrow-right"></div></li>
+                        <li><div class="article-caption">Concederetur. Plane graviterque legendis sempiternum molestiae scripserit nocet fastidium distrahi, dolemus. Virtutum, torquate legat inutile theseo. Menandro vera putem collegi videtur videntur democritum vis invenire. Deserunt exercitationem servata, seditiones docui.</div><div class="ui-icon-arrow-right"></div></li>
+                        <li><div class="article-caption">Viam disserunt recusabo ignota impendet utriusque quosvis amputata morte. Delapsa, praesidium comparare solam minorem propterea gravitate. Dicam statuam claudicare molita putem, expeteremus declinabunt omni gymnasia intellegaturque, aliquos, domesticarum indocti pariatur.</div><div class="ui-icon-arrow-right"></div></li>
+                        <li><div class="article-caption">Spe terminatas mediocrem inventore cupio videantur fidem cernantur aliquo magnopere. Venustate civitatis corrupti exeduntur fortitudo doloribus horribiles vituperari aeternum evertunt, ubi plura amoris excelsus historiae delectu desideraret solemus sequimur ipsas.</div><div class="ui-icon-arrow-right"></div></li>
+                        <li><div class="article-caption">Explicabo eum antiopam reperietur animadversionis explicatis harum. Scipio ornateque a essent miserum optimi. Instructus hinc dolores petentium graviter desideret eamque iudicia ornatus, servire, constituam municipem itaque graeco totam puto. D.</div><div class="ui-icon-arrow-right"></div></li>
+                        <li><div class="article-caption">Ultima memoria exeamus atomum disserendi medicorum materia saepe ambigua, mox miserum euripidis contereret fuit pariendarum, chrysippo, fecerit effecerit virtutum praeda reprehensione disserunt maiestatis, isti cupiditate iudiciorumque haeret privatione, expectata numquam.</div><div class="ui-icon-arrow-right"></div></li>
+                        <li><div class="article-caption">Molestiam potest eius ullus, adhibuit tantopere suscepi interrogare molestiae virtutibus necesse, conficiuntque omnium antiopam via cn ipsos, andriam cogitarent fecit indicaverunt malle fidem. Continent natum aeque molestiam cupio probarem, via.</div><div class="ui-icon-arrow-right"></div></li>
+                        <li><div class="article-caption">Detractis familiarem magnum, sive huius huic scientiam ipsam causam, triario studuisse vias protervi audaces tenere graecam molestiam, amicitiam eriguntur, convicia, interiret appetendi humili convenire caret dolemus. Eo ferre fugiendis amotio.</div><div class="ui-icon-arrow-right"></div></li>
+                        <li><div class="article-caption">Superstitio adhibuit definitiones repugnantibus iucunda inertissimae simul accusantibus iudicium. Continent benivolentiam parte inculta, aetatis ac. Ipsi honesto velit acuti, sapiens statuat ferae animadversionem futuros habet afficit, aegritudines vituperatoribus inliberali adquiescere.</div><div class="ui-icon-arrow-right"></div></li>
+                        <li><div class="article-caption">Concederetur. Plane graviterque legendis sempiternum molestiae scripserit nocet fastidium distrahi, dolemus. Virtutum, torquate legat inutile theseo. Menandro vera putem collegi videtur videntur democritum vis invenire. Deserunt exercitationem servata, seditiones docui.</div><div class="ui-icon-arrow-right"></div></li>
+                        <li><div class="article-caption">Viam disserunt recusabo ignota impendet utriusque quosvis amputata morte. Delapsa, praesidium comparare solam minorem propterea gravitate. Dicam statuam claudicare molita putem, expeteremus declinabunt omni gymnasia intellegaturque, aliquos, domesticarum indocti pariatur.</div><div class="ui-icon-arrow-right"></div></li>
+                        <li><div class="article-caption">Spe terminatas mediocrem inventore cupio videantur fidem cernantur aliquo magnopere. Venustate civitatis corrupti exeduntur fortitudo doloribus horribiles vituperari aeternum evertunt, ubi plura amoris excelsus historiae delectu desideraret solemus sequimur ipsas.</div><div class="ui-icon-arrow-right"></div></li>
+                        <li><div class="spacer">Spacer</div><div></div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+</body>
+
+</html>

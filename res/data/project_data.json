@@ -1,0 +1,662 @@
+[{
+	"building": "Newburgh Dialysis Center",
+	"city": "Newburgh",
+	"id": "newburghdialysiscenter",
+	"latitude": "37.039137",
+	"longitude": "-91.739018",
+	"state": "IN",
+	"street": "4311 State Route #261",
+	"zip": "47630",
+	"latLng": [37, -91],
+	"mapData": {
+		"latLng": [37.04, -91.74],
+		"name": "Newburgh Dialysis Center"
+	},
+	"address": "4311 State Route #261,Newburgh,IN,47630"
+}, {
+	"building": "Ethan Allen Chicago",
+	"city": "Chicago",
+	"id": "ethanallenchicago",
+	"latitude": "41.9128638",
+	"longitude": "-87.6486387872042",
+	"state": "IL",
+	"street": "1700 N. Halsted Street",
+	"zip": "60614",
+	"latLng": [41, -87],
+	"mapData": {
+		"latLng": [41.91, -87.65],
+		"name": "Ethan Allen Chicago"
+	},
+	"address": "1700 N. Halsted Street,Chicago,IL,60614"
+}, {
+	"building": "Apple Dialysis Center",
+	"city": "Muskegeon",
+	"id": "appledialysiscenter",
+	"latitude": "43.2341460961539",
+	"longitude": "-86.1814202307692",
+	"state": "MI",
+	"street": "2480 East Apple Avenue #E",
+	"zip": "49442",
+	"latLng": [43, -86],
+	"mapData": {
+		"latLng": [43.23, -86.18],
+		"name": "Apple Dialysis Center"
+	},
+	"address": "2480 East Apple Avenue #E,Muskegeon,MI,49442"
+}, {
+	"building": "Grayling HHD/CAPD Training Center",
+	"city": "Grayling",
+	"id": "graylinghhdcapdtrainingcenter",
+	"latitude": "44.6687787",
+	"longitude": "-84.7079486",
+	"state": "MI",
+	"street": "125 East Michigan Avenue",
+	"zip": "49738",
+	"virtualTouchID": 12,
+	"latLng": [44, -84],
+	"mapData": {
+		"latLng": [44.67, -84.71],
+		"name": "Grayling HHD/CAPD Training Center"
+	},
+	"address": "125 East Michigan Avenue,Grayling,MI,49738"
+}, {
+	"building": "Alma Dialysis Center",
+	"city": "Alma",
+	"id": "almadialysiscenter",
+	"latitude": "43.3958249333333",
+	"longitude": "-84.6666614",
+	"state": "MI",
+	"street": "1720 Wright Avenue",
+	"zip": "48801",
+	"latLng": [43, -84],
+	"mapData": {
+		"latLng": [43.4, -84.67],
+		"name": "Alma Dialysis Center"
+	},
+	"address": "1720 Wright Avenue,Alma,MI,48801"
+}, {
+	"building": "Dr. Justin Dey Dental Office",
+	"city": "Saginaw",
+	"id": "dr.justindeydentaloffice",
+	"latitude": "43.4169297407407",
+	"longitude": "-84.0259387777778",
+	"state": "MI",
+	"street": "5545 Colony Drive North #1",
+	"zip": "48638",
+	"latLng": [43, -84],
+	"mapData": {
+		"latLng": [43.42, -84.03],
+		"name": "Dr. Justin Dey Dental Office"
+	},
+	"address": "5545 Colony Drive North #1,Saginaw,MI,48638"
+}, {
+	"building": "Saginaw Dialysis Center",
+	"city": "Saginaw",
+	"id": "saginawdialysiscenter",
+	"latitude": "43.4264704166667",
+	"longitude": "-83.9400985",
+	"state": "MI",
+	"street": "310 Hoyt Avenue",
+	"zip": "48607",
+	"latLng": [43, -83],
+	"mapData": {
+		"latLng": [43.43, -83.94],
+		"name": "Saginaw Dialysis Center"
+	},
+	"address": "310 Hoyt Avenue,Saginaw,MI,48607"
+}, {
+	"building": "Rogers City Dialysis Center",
+	"city": "Rogers City",
+	"id": "rogerscitydialysiscenter",
+	"latitude": "45.420079",
+	"longitude": "-83.814633",
+	"state": "MI",
+	"street": "198 East Erie Street",
+	"zip": "49779",
+	"latLng": [45, -83],
+	"mapData": {
+		"latLng": [45.42, -83.81],
+		"name": "Rogers City Dialysis Center"
+	},
+	"address": "198 East Erie Street,Rogers City,MI,49779"
+}, {
+	"building": "Vehicle City Harley Davidson",
+	"city": "Flint",
+	"id": "vehiclecityharleydavidson",
+	"latitude": "42.9923864448048",
+	"longitude": "-83.7400748002346",
+	"state": "MI",
+	"street": "2400 Austins Parkway",
+	"zip": "48507",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.99, -83.74],
+		"name": "Vehicle City Harley Davidson"
+	},
+	"address": "2400 Austins Parkway,Flint,MI,48507"
+}, {
+	"building": "Bethany Methodist Church",
+	"city": "Clio",
+	"id": "bethanymethodistchurch",
+	"latitude": "43.1773271666667",
+	"longitude": "-83.7380666666667",
+	"state": "MI",
+	"street": "353 W. Vienna Street",
+	"zip": "48420",
+	"latLng": [43, -83],
+	"mapData": {
+		"latLng": [43.18, -83.74],
+		"name": "Bethany Methodist Church"
+	},
+	"address": "353 W. Vienna Street,Clio,MI,48420"
+}, {
+	"building": "Mt. Morris Dialysis Center",
+	"city": "Mt. Morris",
+	"id": "mt.morrisdialysiscenter",
+	"latitude": "43.120471",
+	"longitude": "-83.694435",
+	"state": "MI",
+	"street": "6141 N. Saginaw Street",
+	"zip": "48458",
+	"latLng": [43, -83],
+	"mapData": {
+		"latLng": [43.12, -83.69],
+		"name": "Mt. Morris Dialysis Center"
+	},
+	"address": "6141 N. Saginaw Street,Mt. Morris,MI,48458"
+}, {
+	"building": "Burton Dialysis Center",
+	"city": "Burton",
+	"id": "burtondialysiscenter",
+	"latitude": "43.033225",
+	"longitude": "-83.634722",
+	"state": "MI",
+	"street": "4015 Davison Road",
+	"zip": "48503",
+	"latLng": [43, -83],
+	"mapData": {
+		"latLng": [43.03, -83.63],
+		"name": "Burton Dialysis Center"
+	},
+	"address": "4015 Davison Road,Burton,MI,48503"
+}, {
+	"building": "West Bloomfield Dialysis Center",
+	"city": "West Bloomfield",
+	"id": "westbloomfielddialysiscenter",
+	"latitude": "42.542569",
+	"longitude": "-83.375319",
+	"state": "MI",
+	"street": "6010 W. Maple Road",
+	"zip": "48322",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.54, -83.38],
+		"name": "West Bloomfield Dialysis Center"
+	},
+	"address": "6010 W. Maple Road,West Bloomfield,MI,48322"
+}, {
+	"building": "Waterford Dialysis Center",
+	"city": "Waterford",
+	"id": "waterforddialysiscenter",
+	"latitude": "42.640332",
+	"longitude": "-83.332781",
+	"state": "MI",
+	"street": "225 Summit Drive",
+	"zip": "48326",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.64, -83.33],
+		"name": "Waterford Dialysis Center"
+	},
+	"address": "225 Summit Drive,Waterford,MI,48326"
+}, {
+	"building": "Arts and Technology Academy of Pontiac",
+	"city": "Pontiac",
+	"id": "artsandtechnologyacademyofpontiac",
+	"latitude": "42.634271",
+	"longitude": "-83.288566",
+	"state": "MI",
+	"street": "48980 Woodward Avenue",
+	"zip": "48342",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.63, -83.29],
+		"name": "Arts and Technology Academy of Pontiac"
+	},
+	"address": "48980 Woodward Avenue,Pontiac,MI,48342"
+}, {
+	"building": "Monroe Dialysis Center",
+	"city": "Dearborn",
+	"id": "monroedialysiscenter",
+	"latitude": "42.304087",
+	"longitude": "-83.244296",
+	"state": "MI",
+	"street": "22030 Park Street",
+	"zip": "48124",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.3, -83.24],
+		"name": "Monroe Dialysis Center"
+	},
+	"address": "22030 Park Street,Dearborn,MI,48124"
+}, {
+	"building": "Tiffin Dialysis Center- Mercy Hospital Tiffin Campus",
+	"city": "Tiffin",
+	"id": "tiffindialysiscenter-mercyhospitaltiffincampus",
+	"latitude": "41.1062285",
+	"longitude": "-83.215942",
+	"state": "OH",
+	"street": "10 Saint Lawrence Dr",
+	"zip": "44883",
+	"latLng": [41, -83],
+	"mapData": {
+		"latLng": [41.11, -83.22],
+		"name": "Tiffin Dialysis Center- Mercy Hospital Tiffin Campus"
+	},
+	"address": "10 Saint Lawrence Dr,Tiffin,OH,44883"
+}, {
+	"building": "Royal Oak Dialysis Center",
+	"city": "Royal Oak",
+	"id": "royaloakdialysiscenter",
+	"latitude": "42.5210225415992",
+	"longitude": "-83.1857507979756",
+	"state": "MI",
+	"street": "3425 Starr Road",
+	"zip": "48073",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.52, -83.19],
+		"name": "Royal Oak Dialysis Center"
+	},
+	"address": "3425 Starr Road,Royal Oak,MI,48073"
+}, {
+	"building": "New Center Dialysis Center",
+	"city": "Detroit",
+	"id": "newcenterdialysiscenter",
+	"latitude": "42.3717565757576",
+	"longitude": "-83.077930030303",
+	"state": "MI",
+	"street": "7700 2nd Avenue",
+	"zip": "48202",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.37, -83.08],
+		"name": "New Center Dialysis Center"
+	},
+	"address": "7700 2nd Avenue,Detroit,MI,48202"
+}, {
+	"building": "Kresge Dialysis Center",
+	"city": "Detroit",
+	"id": "kresgedialysiscenter",
+	"latitude": "42.3498891836735",
+	"longitude": "-83.063298755102",
+	"state": "MI",
+	"street": "4145 Cass Avenue",
+	"zip": "48201",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.35, -83.06],
+		"name": "Kresge Dialysis Center"
+	},
+	"address": "4145 Cass Avenue,Detroit,MI,48201"
+}, {
+	"building": "Harper Woods Dialysis Center",
+	"city": "Harper Woods",
+	"id": "harperwoodsdialysiscenter",
+	"latitude": "42.445714",
+	"longitude": "-82.91681",
+	"state": "MI",
+	"street": "19265 Vernier Road",
+	"zip": "48225",
+	"latLng": [42, -82],
+	"mapData": {
+		"latLng": [42.45, -82.92],
+		"name": "Harper Woods Dialysis Center"
+	},
+	"address": "19265 Vernier Road,Harper Woods,MI,48225"
+}, {
+	"building": "Riverwood Dialysis Center",
+	"city": "Southfield",
+	"id": "riverwooddialysiscenter",
+	"latitude": "42.471821",
+	"longitude": "-83.283836",
+	"state": "MI",
+	"street": "24467 West Ten Mile Road",
+	"zip": "48033",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.47, -83.28],
+		"name": "Riverwood Dialysis Center"
+	},
+	"address": "24467 West Ten Mile Road,Southfield,MI,48033"
+}, {
+	"building": "DaVita HHD/CAPD Training Center",
+	"city": "Detroit",
+	"id": "davitahhdcapdtrainingcenter",
+	"latitude": "42.3634",
+	"longitude": "-83.046985",
+	"state": "MI",
+	"street": "1800 E. Warren Avenue",
+	"zip": "49004",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.36, -83.05],
+		"name": "DaVita HHD/CAPD Training Center"
+	},
+	"address": "1800 E. Warren Avenue,Detroit,MI,49004"
+}, {
+	"building": "Riverview Dialysis Center",
+	"city": "Riverview",
+	"id": "riverviewdialysiscenter",
+	"latitude": "42.175523",
+	"longitude": "-83.189423",
+	"state": "MI",
+	"street": "18236-38 Fort Road",
+	"zip": "48193",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.18, -83.19],
+		"name": "Riverview Dialysis Center"
+	},
+	"address": "18236-38 Fort Road,Riverview,MI,48193"
+}, {
+	"building": "Ann Arbor Dialysis Center",
+	"city": "Ann Arbor",
+	"id": "annarbordialysiscenter",
+	"latitude": "42.240581",
+	"longitude": "-83.770717",
+	"state": "MI",
+	"street": "3147 Oak Valley",
+	"zip": "48103",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.24, -83.77],
+		"name": "Ann Arbor Dialysis Center"
+	},
+	"address": "3147 Oak Valley,Ann Arbor,MI,48103"
+}, {
+	"building": "Walker Dialysis Center",
+	"city": "Walker",
+	"id": "walkerdialysiscenter",
+	"latitude": "43.013742",
+	"longitude": "-85.723395",
+	"state": "MI",
+	"street": "2680 Walker Avenue Suite A",
+	"zip": "49544",
+	"latLng": [43, -85],
+	"mapData": {
+		"latLng": [43.01, -85.72],
+		"name": "Walker Dialysis Center"
+	},
+	"address": "2680 Walker Avenue Suite A,Walker,MI,49544"
+}, {
+	"building": "Bloomfield HHD/CAPD Training Center",
+	"city": "Bloomfield Hills",
+	"id": "bloomfieldhhdcapdtrainingcenter",
+	"latitude": "42.602742",
+	"longitude": "-83.26311",
+	"state": "MI",
+	"street": "42886 Woodward Avenue",
+	"zip": "48302",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.6, -83.26],
+		"name": "Bloomfield HHD/CAPD Training Center"
+	},
+	"address": "42886 Woodward Avenue,Bloomfield Hills,MI,48302"
+}, {
+	"building": "Grand Rapids HHD/CAPD Training Center",
+	"city": "Grand Rapids",
+	"id": "grandrapidshhdcapdtrainingcenter",
+	"latitude": "42.969353",
+	"longitude": "-85.590665",
+	"state": "MI",
+	"street": "330 East Beltline Avenue N.E.",
+	"zip": "49506",
+	"latLng": [42, -85],
+	"mapData": {
+		"latLng": [42.97, -85.59],
+		"name": "Grand Rapids HHD/CAPD Training Center"
+	},
+	"address": "330 East Beltline Avenue N.E.,Grand Rapids,MI,49506"
+}, {
+	"building": "Norton Shores Dialysis Center",
+	"city": "Norton Shores",
+	"id": "nortonshoresdialysiscenter",
+	"latitude": "43.18628",
+	"longitude": "-86.267401",
+	"state": "MI",
+	"street": "957 Seminole Road",
+	"zip": "49440",
+	"latLng": [43, -86],
+	"mapData": {
+		"latLng": [43.19, -86.27],
+		"name": "Norton Shores Dialysis Center"
+	},
+	"address": "957 Seminole Road,Norton Shores,MI,49440"
+}, {
+	"building": "Ypsilanti Dialysis Center",
+	"city": "Ypsilanti",
+	"id": "ypsilantidialysiscenter",
+	"latitude": "42.249685",
+	"longitude": "-83.654617",
+	"state": "MI",
+	"street": "2762 Washtenaw Avenue",
+	"zip": "48797",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.25, -83.65],
+		"name": "Ypsilanti Dialysis Center"
+	},
+	"address": "2762 Washtenaw Avenue,Ypsilanti,MI,48797"
+}, {
+	"building": "Grand Blanc Diaylsis Center",
+	"city": "Grand Blanc",
+	"id": "grandblancdiaylsiscenter",
+	"latitude": "42.892254",
+	"longitude": "-83.634194",
+	"state": "MI",
+	"street": "3625 Genesyss Parkway",
+	"zip": "48439",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.89, -83.63],
+		"name": "Grand Blanc Diaylsis Center"
+	},
+	"address": "3625 Genesyss Parkway,Grand Blanc,MI,48439"
+}, {
+	"building": "Grand Blanc HHD/CAPD Training Center",
+	"city": "Grand Blanc",
+	"id": "grandblanchhdcapdtrainingcenter",
+	"latitude": "42.91321",
+	"longitude": "-83.608851",
+	"state": "MI",
+	"street": "8195 Saginaw Road",
+	"zip": "48439",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.91, -83.61],
+		"name": "Grand Blanc HHD/CAPD Training Center"
+	},
+	"address": "8195 Saginaw Road,Grand Blanc,MI,48439"
+}, {
+	"building": "Sonitrol Tri-County",
+	"city": "Flint",
+	"id": "sonitroltri-county",
+	"latitude": "42.98785",
+	"longitude": "-83.675441",
+	"state": "MI",
+	"street": "3907 S. Saginaw Street",
+	"zip": "48507",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.99, -83.68],
+		"name": "Sonitrol Tri-County"
+	},
+	"address": "3907 S. Saginaw Street,Flint,MI,48507"
+}, {
+	"building": "Ethan Allen Grand Rapids",
+	"city": "Grand Rapids",
+	"id": "ethanallengrandrapids",
+	"latitude": "42.91169",
+	"longitude": "-85.581841",
+	"state": "MI",
+	"street": "3450 28th Street S.E.",
+	"zip": "49512",
+	"latLng": [42, -85],
+	"mapData": {
+		"latLng": [42.91, -85.58],
+		"name": "Ethan Allen Grand Rapids"
+	},
+	"address": "3450 28th Street S.E.,Grand Rapids,MI,49512"
+}, {
+	"building": "Ethan Allen Lansing",
+	"city": "Lansing",
+	"id": "ethanallenlansing",
+	"latitude": "42.762909",
+	"longitude": "-84.513434",
+	"state": "MI",
+	"street": "2907 Preyde Boulevard",
+	"zip": "48912",
+	"latLng": [42, -84],
+	"mapData": {
+		"latLng": [42.76, -84.51],
+		"name": "Ethan Allen Lansing"
+	},
+	"address": "2907 Preyde Boulevard,Lansing,MI,48912"
+}, {
+	"building": "U of M Flint",
+	"city": "Flint",
+	"id": "uofmflint",
+	"latitude": "43.016422",
+	"longitude": "-83.689232",
+	"state": "MI",
+	"street": "509 Harrison Stret",
+	"zip": "48502",
+	"latLng": [43, -83],
+	"mapData": {
+		"latLng": [43.02, -83.69],
+		"name": "U of M Flint"
+	},
+	"address": "509 Harrison Stret,Flint,MI,48502"
+}, {
+	"building": "Grand Blanc Academy",
+	"city": "Grand Blanc",
+	"id": "grandblancacademy",
+	"latitude": "42.94613",
+	"longitude": "-83.609111",
+	"state": "MI",
+	"street": "5135 E. Hill Road",
+	"zip": "48439",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.95, -83.61],
+		"name": "Grand Blanc Academy"
+	},
+	"address": "5135 E. Hill Road,Grand Blanc,MI,48439"
+}, {
+	"building": "Tacom Fitness Center at Detroit Arsenal Army Garrison",
+	"city": "Warren",
+	"id": "tacomfitnesscenteratdetroitarsenalarmygarrison",
+	"latitude": "42.491743",
+	"longitude": "-83.040055",
+	"state": "MI",
+	"street": "6501 E. Eleven Mile Rd",
+	"zip": "48071",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.49, -83.04],
+		"name": "Tacom Fitness Center at Detroit Arsenal Army Garrison"
+	},
+	"address": "6501 E. Eleven Mile Rd,Warren,MI,48071"
+}, {
+	"building": "Savage Circle at Tacom Detroit Arsenal Army Garrison",
+	"city": "Warren",
+	"id": "savagecircleattacomdetroitarsenalarmygarrison",
+	"latitude": "42.491743",
+	"longitude": "-83.040055",
+	"state": "MI",
+	"street": "6501 E. Eleven Mile Road",
+	"zip": "48071",
+	"latLng": [42, -83],
+	"mapData": {
+		"latLng": [42.49, -83.04],
+		"name": "Savage Circle at Tacom Detroit Arsenal Army Garrison"
+	},
+	"address": "6501 E. Eleven Mile Road,Warren,MI,48071"
+}, {
+	"building": "Clio Animal Hospital",
+	"city": "Clio",
+	"id": "clioanimalhospital",
+	"latitude": "43.1779",
+	"longitude": "-83.752451",
+	"state": "MI",
+	"street": "3474 W. Vienna Road",
+	"zip": "48420",
+	"latLng": [43, -83],
+	"mapData": {
+		"latLng": [43.18, -83.75],
+		"name": "Clio Animal Hospital"
+	},
+	"address": "3474 W. Vienna Road,Clio,MI,48420"
+}, {
+	"building": "Greater Flint Sports Medicine",
+	"city": "Flint",
+	"id": "greaterflintsportsmedicine",
+	"latitude": "42.99579",
+	"longitude": "-83.773531",
+	"state": "MI",
+	"street": "2222 S. Linden Road Suite A2",
+	"zip": "48532",
+	"latLng": [43, -83],
+	"mapData": {
+		"latLng": [43, -83.77],
+		"name": "Greater Flint Sports Medicine"
+	},
+	"address": "2222 S. Linden Road Suite A2,Flint,MI,48532"
+}, {
+	"building": "Crystal Gardens Wedding Chapel",
+	"city": "Clio",
+	"id": "crystalgardensweddingchapel",
+	"latitude": "43.18286",
+	"longitude": "-83.745191",
+	"state": "MI",
+	"street": "3289 Field Road",
+	"zip": "48420",
+	"latLng": [43, -83],
+	"mapData": {
+		"latLng": [43.18, -83.75],
+		"name": "Crystal Gardens Wedding Chapel"
+	},
+	"address": "3289 Field Road,Clio,MI,48420"
+}, {
+	"building": "Mio Baptist Church",
+	"city": "Mio",
+	"id": "miobaptistchurch",
+	"latitude": "44.671436",
+	"longitude": "-84.130035",
+	"state": "MI",
+	"street": "357 S. Mt. Tom Road",
+	"zip": "48647",
+	"latLng": [44, -84],
+	"mapData": {
+		"latLng": [44.67, -84.13],
+		"name": "Mio Baptist Church"
+	},
+	"address": "357 S. Mt. Tom Road,Mio,MI,48647"
+}, {
+	"building": "Washington Square Park Zoo",
+	"city": "Michigan City",
+	"id": "washingtonsquareparkzoo",
+	"latitude": "41.72533",
+	"longitude": "-86.901281",
+	"state": "IN",
+	"street": "115 Lakeshore Drive",
+	"zip": "46360",
+	"latLng": [41, -86],
+	"mapData": {
+		"latLng": [41.73, -86.9],
+		"name": "Washington Square Park Zoo"
+	},
+	"address": "115 Lakeshore Drive,Michigan City,IN,46360"
+}]

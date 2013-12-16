@@ -1,0 +1,64 @@
+[{
+	"selector": "html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, time, audio, video",
+	"style": "padding: 0px; margin: 0px; border: 0px;"
+}, {
+	"selector": ".bar-title ~ .content",
+	"style": "top: 44px;"
+}, {
+	"selector": ".bar-tab ~ .content",
+	"style": "bottom: 51px;"
+}, {
+	"selector": ".bar-header-secondary ~ .content",
+	"style": "top: 88px;"
+}, {
+	"selector": "[class*=\"bar-\"]",
+	"style": "position: fixed; right: 0px; left: 0px; z-index: 10; height: 44px; padding: 5px; box-sizing: border-box;"
+}, {
+	"selector": ".bar-header-secondary",
+	"style": "top: 45px;"
+}, {
+	"selector": ".bar-footer",
+	"style": "bottom: 0px;"
+}, {
+	"selector": ".bar-standard",
+	"style": "background-color: rgb(242, 242, 242); background-image: linear-gradient(rgb(242, 242, 242) 0px, rgb(229, 229, 229) 100%); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(170, 170, 170); box-shadow: rgb(255, 255, 255) 0px 1px 1px -1px inset;"
+}, {
+	"selector": ".bar-footer.bar-standard, .bar-footer-secondary.bar-standard",
+	"style": "border-top-width: 1px; border-top-style: solid; border-top-color: rgb(170, 170, 170); border-bottom-width: 0px;"
+}, {
+	"selector": ".bar-title",
+	"style": "top: 0px; display: -webkit-box; background-color: rgb(30, 176, 233); background-image: linear-gradient(rgb(30, 176, 233) 0px, rgb(16, 154, 220) 100%); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(14, 88, 149); box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 1px -1px inset; -webkit-box-orient: horizontal;"
+}, {
+	"selector": ".bar-title .title",
+	"style": "position: absolute; top: 0px; left: 0px; display: block; width: 100%; font-size: 20px; font-weight: bold; line-height: 44px; color: rgb(255, 255, 255); text-align: center; text-shadow: rgba(0, 0, 0, 0.498039) 0px -1px; white-space: nowrap;"
+}, {
+	"selector": ".bar-title .title a",
+	"style": "color: inherit;"
+}, {
+	"selector": ".bar-tab",
+	"style": "bottom: 0px; height: 50px; padding: 0px; background-color: rgb(57, 57, 57); background-image: linear-gradient(rgb(57, 57, 57) 0px, rgb(43, 43, 43) 100%); border-top-width: 1px; border-top-style: solid; border-top-color: rgb(0, 0, 0); border-bottom-width: 0px; box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 1px -1px inset;"
+}, {
+	"selector": "[class*=\"bar-\"] .segmented-controller",
+	"style": "margin-bottom: 0px;"
+}, {
+	"selector": ".bar-title .segmented-controller",
+	"style": "line-height: 18px; text-shadow: rgba(0, 0, 0, 0.298039) 0px -1px 0px; background-color: rgb(30, 176, 233); background-image: linear-gradient(rgb(30, 176, 233) 0px, rgb(9, 132, 198) 100%); border: 1px solid rgb(14, 88, 149); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(255, 255, 255, 0.247059) 0px 1px; -webkit-box-flex: 1;"
+}, {
+	"selector": ".bar-title .segmented-controller li",
+	"style": "border-left-width: 1px; border-left-style: solid; border-left-color: rgb(14, 88, 149); box-shadow: rgba(255, 255, 255, 0.247059) 1px 0px inset;"
+}, {
+	"selector": ".bar-title .segmented-controller .active + li, .bar-title .segmented-controller li:first-child",
+	"style": "box-shadow: none;"
+}, {
+	"selector": ".bar-title .segmented-controller li:first-child",
+	"style": "border-left-width: 0px;"
+}, {
+	"selector": ".bar-title .segmented-controller li.active",
+	"style": "background-color: rgb(0, 130, 196); box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 6px inset;"
+}, {
+	"selector": ".bar-title .segmented-controller li > a",
+	"style": "color: rgb(255, 255, 255);"
+}, {
+	"selector": ".bar-standard input[type=\"search\"]",
+	"style": "height: 32px; margin: 0px;"
+}]

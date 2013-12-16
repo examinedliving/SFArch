@@ -1,0 +1,28 @@
+ [{
+ 	"selector": ".tab-item.active",
+ 	"style": "box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 20px inset;"
+ }, {
+ 	"selector": ".bar-title .segmented-controller li.active",
+ 	"style": "background-color: rgb(0, 130, 196); box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 6px inset;"
+ }, {
+ 	"selector": ".segmented-controller li.active",
+ 	"style": "background-color: rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 5px inset;"
+ }, {
+ 	"selector": ".toggle.active",
+ 	"style": "background-color: rgb(25, 168, 228); background-image: linear-gradient(rgb(8, 140, 212) 0px, rgb(25, 168, 228) 100%); border: 1px solid rgb(9, 108, 157); box-shadow: rgba(255, 255, 255, 0.247059) 0px 0px 15px inset;"
+ }, {
+ 	"selector": ".toggle.active .toggle-handle",
+ 	"style": "border-color: rgb(10, 118, 173); -webkit-transform: translate3d(48px, 0px, 0px);"
+ }, {
+ 	"selector": ".toggle.active::before",
+ 	"style": "right: auto; left: 15px; color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px; content: 'On';"
+ }, {
+ 	"selector": ".segmented-controller li.active",
+ 	"style": "background-color: rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 5px inset;"
+ }, {
+ 	"selector": ".slider",
+ 	"style": "overflow: hidden; background-color: rgb(0, 0, 0);"
+ }, {
+	"selector": ".slider > ul > li > *",
+	"style": "font-size: 14px;"
+ }]

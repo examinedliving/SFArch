@@ -1,0 +1,111 @@
+@font-face {
+	font-family: 'SF';
+	src:url('fonts/SF.woff') format('woff'),
+		url('fonts/SF.ttf') format('truetype'),
+		url('fonts/SF.svg#SF') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Architecture';
+	src:url('fonts/Architecture.ttf');
+}
+.ui-icon-arrow-left, .ui-icon-arrow-down, .ui-icon-arrow-up, .ui-icon-arrow-right, .ui-icon-ellipsis, .ui-icon-safari, .ui-icon-facebook, .ui-icon-twitter, .ui-icon-googleplus, .ui-icon-plus, .ui-icon-minus, .ui-icon-phone, .ui-icon-linkedin, .ui-icon-reply, .ui-icon-house, .ui-icon-earth, .ui-icon-mobile, .ui-icon-tablet, .ui-icon-location, .ui-icon-map, .ui-icon-pencil, .ui-icon-pencil-2, .ui-icon-mail, .ui-icon-info, .ui-icon-info-2, .ui-icon-comment, .ui-icon-chat, .ui-icon-sf_logo {
+	font-family: 'SF';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: inherit;
+	-webkit-font-smoothing: antialiased;
+}
+.ui-icon-arrow-left:before {
+	content: "\e006";
+}
+.ui-icon-arrow-down:before {
+	content: "\e007";
+}
+.ui-icon-arrow-up:before {
+	content: "\e008";
+}
+.ui-icon-arrow-right:before {
+	content: "\e009";
+}
+.ui-icon-ellipsis:before {
+	content: "\e00a";
+}
+.ui-icon-safari:before {
+	content: "\e003";
+}
+.ui-icon-facebook:before {
+	content: "\e00c";
+}
+.ui-icon-twitter:before {
+	content: "\e00d";
+}
+.ui-icon-googleplus:before {
+	content: "\e00e";
+}
+.ui-icon-plus:before {
+	content: "\e00f";
+}
+.ui-icon-minus:before {
+	content: "\e010";
+}
+.ui-icon-phone:before {
+	content: "\e012";
+}
+.ui-icon-linkedin:before {
+	content: "\e015";
+}
+.ui-icon-reply:before {
+	content: "\e016";
+}
+.ui-icon-house:before {
+	content: "\e017";
+}
+.ui-icon-earth:before {
+	content: "\e013";
+}
+.ui-icon-mobile:before {
+	content: "\e019";
+}
+.ui-icon-tablet:before {
+	content: "\e01a";
+}
+.ui-icon-location:before {
+	content: "\e00b";
+}
+.ui-icon-map:before {
+	content: "\e005";
+}
+.ui-icon-pencil:before {
+	content: "\e004";
+}
+.ui-icon-pencil-2:before {
+	content: "\e001";
+}
+.ui-icon-mail:before {
+	content: "\e011";
+}
+.ui-icon-info:before {
+	content: "\e000";
+}
+.ui-icon-info-2:before {
+	content: "\e002";
+}
+.ui-icon-comment:before {
+	content: "\e014";
+}
+.ui-icon-chat:before {
+	content: "\e01b";
+}
+.ui-icon-sf_logo:before {
+	content: "\e018";
+}
+
+/* Fonts for text */
+.architecture {
+	font-family: 'Architecture';
+}

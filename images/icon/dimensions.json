@@ -1,0 +1,66 @@
+{
+	"iPad_app": {
+		"w": 72,
+		"h": 72
+	},
+	"iPad_app_@2x": {
+		"w": 144,
+		"h": 144
+	},
+	"iPad_ios7_app": {
+		"w": 76,
+		"h": 76
+	},
+	"iPad_ios7_app_@2x": {
+		"w": 152,
+		"h": 152
+	},
+	"iPhone_app": {
+		"w": 57,
+		"h": 57
+	},
+	"iPhone_app_@2x": {
+		"w": 114,
+		"h": 114
+	},
+	"iPhone_ios7_app": {
+		"w": 60,
+		"h": 60
+	},
+	"iPhone_ios7_app_@2x": {
+		"w": 120,
+		"h": 120
+	},
+	"all_ios7_spotlight_@2x": {
+		"w": 80,
+		"h": 80
+	},
+	"all_ios7_spotlight": {
+		"w": 40,
+		"h": 40
+	},
+	"all_ios7_settings": {
+		"w": 29,
+		"h": 29
+	},
+	"all_ios7_settings_@2x": {
+		"w": 58,
+		"h": 58
+	},
+	"iPhone_settings_spotlight": {
+		"w": 29,
+		"h": 29
+	},
+	"iPhone_settings_spotlight_@2x": {
+		"w": 58,
+		"h": 58
+	},
+	"iPad_settings_spotlight": {
+		"w": 50,
+		"h": 50
+	},
+	"iPad_settings_spotlight_@2x": {
+		"w": 100,
+		"h": 100
+	}
+}

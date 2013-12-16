@@ -1,0 +1,26 @@
+#splash .pattern {
+    /*background:url(../images/assets/grid_noise_@2x.png) repeat;*/
+    background:url(../images/assets/bgblur.png) repeat;
+}
+#splash .logo {
+    top:50px;
+    text-align:center;
+    margin:0 auto;
+    line-height:255px;
+    width:170px;
+    height:170px;
+}
+#splash .logo img {
+    width:150px;
+    margin:auto;
+    text-align:center;
+}#splash .loading {
+position: absolute;
+bottom: 75px;
+height: 100px;
+z-index: 17;
+font-size: 25px;
+padding: 0;
+width: 290px;
+
+}
